@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2358,8 +2371,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2327" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir finally sits up, intending to join this quarrel in earnest. "Anyone cares t'ask me, ye've all hit yer heads. Vark found a big help fer us, so thanks to that. Seid found some stories an' legends, maybe they help, so thanks fer that too. I was there with...whatever ye call'im, yer friend 'ere, Jex. If he had 'is way, we'd be askin' ev'ryone after everytime they foun' a coin layin' about or spilled a drink on'em." The dwarf checks everyone in attendance, trying to stay neutral on either side of this argument.</p>
-<p>"Fact is, we've got stronger ideas goin' forward an' we know we've gotta keep wits about us. Piss on th' rest. Things 'appen; do what needs doin' an' get over it. Since we seen daylight after th' mines, ye've all been like snippy lil' maids." Bründir's hands go up in mocking pantomime, "<em>I don't like you, I don't like you. You stepped on my skirt! Well, you stole my man!</em> I feel like I'm in some shit bard's show." The dwarf settles back in, not really sure if his point was made. He felt like more was needed, but it felt more like ranting now.</p>
+                                <p>BrÃ¼ndir finally sits up, intending to join this quarrel in earnest. "Anyone cares t'ask me, ye've all hit yer heads. Vark found a big help fer us, so thanks to that. Seid found some stories an' legends, maybe they help, so thanks fer that too. I was there with...whatever ye call'im, yer friend 'ere, Jex. If he had 'is way, we'd be askin' ev'ryone after everytime they foun' a coin layin' about or spilled a drink on'em." The dwarf checks everyone in attendance, trying to stay neutral on either side of this argument.</p>
+<p>"Fact is, we've got stronger ideas goin' forward an' we know we've gotta keep wits about us. Piss on th' rest. Things 'appen; do what needs doin' an' get over it. Since we seen daylight after th' mines, ye've all been like snippy lil' maids." BrÃ¼ndir's hands go up in mocking pantomime, "<em>I don't like you, I don't like you. You stepped on my skirt! Well, you stole my man!</em> I feel like I'm in some shit bard's show." The dwarf settles back in, not really sure if his point was made. He felt like more was needed, but it felt more like ranting now.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2391,7 +2404,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -2721,8 +2734,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2329" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir took Jex's fiery rebuttal with a massive grain of salt. Even the most humble bristled slightly at criticism, let alone being accused of petty actions. "A'right," he begins, leaning over his mug, "First, we got dragged 'round, askin' mopey an' smiley twats alike 'bout their days. We're lookin' fer somethin' so bad it got shoved under a mountain, not some lil' wish imp. Second, Vark'n Seid're good in my book. I'm sure if Vark found somethin', and Seid said it was clean, it's fine to use. B'sides, it showed'im home, an' not much else, right? Not like it showed th' giant sippin' wine over a book in it's study."</p>
-<p>Bründir swung his sword belt around, planting Dumdrengi on the floor with hilt resting above the tabletop, "Third, Thurston I trust, same as ev'ryone 'ere. If Vark came runnin' in saying he wanted to do what he did, I'd've prob'ly signed on with Thurston an' said bad plan. What's done is done, though, and seems we're fine. And lastly," he stamps the cap of Dumdrengi's sheath on the floor to articulate his point, "Don' think ye know whims an' wills of ancestors. I'm young by my kind, but I could be yer great grandpa. This 'ere was made fer doin', not wonderin', an' I've a mind fer some doin' at a damn castle with some scaly witches. Dumdrengi looked 'round as much as we did, an' it seemed bored of it."</p>
+                                <p>BrÃ¼ndir took Jex's fiery rebuttal with a massive grain of salt. Even the most humble bristled slightly at criticism, let alone being accused of petty actions. "A'right," he begins, leaning over his mug, "First, we got dragged 'round, askin' mopey an' smiley twats alike 'bout their days. We're lookin' fer somethin' so bad it got shoved under a mountain, not some lil' wish imp. Second, Vark'n Seid're good in my book. I'm sure if Vark found somethin', and Seid said it was clean, it's fine to use. B'sides, it showed'im home, an' not much else, right? Not like it showed th' giant sippin' wine over a book in it's study."</p>
+<p>BrÃ¼ndir swung his sword belt around, planting Dumdrengi on the floor with hilt resting above the tabletop, "Third, Thurston I trust, same as ev'ryone 'ere. If Vark came runnin' in saying he wanted to do what he did, I'd've prob'ly signed on with Thurston an' said bad plan. What's done is done, though, and seems we're fine. And lastly," he stamps the cap of Dumdrengi's sheath on the floor to articulate his point, "Don' think ye know whims an' wills of ancestors. I'm young by my kind, but I could be yer great grandpa. This 'ere was made fer doin', not wonderin', an' I've a mind fer some doin' at a damn castle with some scaly witches. Dumdrengi looked 'round as much as we did, an' it seemed bored of it."</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2750,7 +2763,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -3972,7 +3985,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2336" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“I just... I just hate how he always thinks he’s right. There’s no... no debating with him.”</b> Vark mutters an orcish curse under his breath and shakes his head as if dismissing any thoughts of the pretentious assassin. <b>“I- uhm I guess we should head back to Sheercleft though. A-after we hear from Wydrioth. And then it seems like the only thing we all agree on is going to deal with the dragonborn sisters.”</b></p>
+                                <p><b>â€œI just... I just hate how he always thinks heâ€™s right. Thereâ€™s no... no debating with him.â€</b> Vark mutters an orcish curse under his breath and shakes his head as if dismissing any thoughts of the pretentious assassin. <b>â€œI- uhm I guess we should head back to Sheercleft though. A-after we hear from Wydrioth. And then it seems like the only thing we all agree on is going to deal with the dragonborn sisters.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4181,7 +4194,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4508,7 +4521,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2339" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir looks after where Jex had left, then returned to the others, "I s'pose those two've gone to their own business, yeah? Let's hear what's said; if Jex 'n Thurston need t'be there, we can send fer'em."&nbsp;Bründir rises, returns his sword to its place at his hip, and waits for the others to follow, stay, or leave.</p>
+                                <p>BrÃ¼ndir looks after where Jex had left, then returned to the others, "I s'pose those two've gone to their own business, yeah? Let's hear what's said; if Jex 'n Thurston need t'be there, we can send fer'em."&nbsp;BrÃ¼ndir rises, returns his sword to its place at his hip, and waits for the others to follow, stay, or leave.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4536,7 +4549,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5400,7 +5413,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2344" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>The herald escorts Bründir, Seid, Valaith and Vark to the great hall, which, aside from its guards, is quiet and empty. The soft sunlight of the late afternoon filters through the windows, throwing ornate shadows of the organically shaped frames across the boarded floors, and the scent of cedars is on the air.</p>
+                                <p>The herald escorts BrÃ¼ndir, Seid, Valaith and Vark to the great hall, which, aside from its guards, is quiet and empty. The soft sunlight of the late afternoon filters through the windows, throwing ornate shadows of the organically shaped frames across the boarded floors, and the scent of cedars is on the air.</p>
 <p>The group is led past the dais of the Lord and Lady and down a passage to the right. Some of them have been here before, when Lady Lelfaer presented them with their gifts. The corridor leads to the Lady's study and other rooms beyond the audience chamber.</p>
 <p>Eventually, the herald comes to a halt outside the study, and gestures to Vark to enter. The room is dark inside, but for a few sparse candles, and Lady Lelfaer can be seen standing besides what appears to be an ornate design that is etched upon the floor in a fluorescent green.</p>
 <p><strong>"Come,"</strong> she beckons to her guests, closing the door behind them once they are inside.</p>
@@ -5435,7 +5448,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5767,7 +5780,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-2346" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Once Vark is in place, Lelfaer begins reciting an incantation in an arcane tongue. She casts a powder into the flame of one of the candles and their light dims. The circle's glow intensifies, and the air on the far side of the figure-of-eight shimmers like a mirage. Slowly, the shimmering solidifies into a tall, raven-haired elven women. She's dressed in robes of dark silk and holds her head high with a regal bearing and confidence. Despite the ageless appearance of all mature elves,&nbsp;something about her seems noticeably older and more experienced than the Lord and Lady Fairfax.</p>
-<p><strong>"Lady Evelyne,"</strong> Lelfaer announces with a brief curtsy,&nbsp;<strong>"please allow me to introduce Vark Galestone of Endelfjell. Vark this is the Marquise Evelyne of Wydrioth, please tell her of your experience with the <em>Paramount</em> of the Jötnar."</strong></p>
+<p><strong>"Lady Evelyne,"</strong> Lelfaer announces with a brief curtsy,&nbsp;<strong>"please allow me to introduce Vark Galestone of Endelfjell. Vark this is the Marquise Evelyne of Wydrioth, please tell her of your experience with the <em>Paramount</em> of the JÃ¶tnar."</strong></p>
 <p>The Marquise says nothing, yet, and simply watches Vark with a piercing, predatory gaze.</p>
                                 
                             </div>
@@ -5795,7 +5808,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -6023,8 +6036,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6361,3 +6374,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=117 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:08 GMT -->
 </html>
+

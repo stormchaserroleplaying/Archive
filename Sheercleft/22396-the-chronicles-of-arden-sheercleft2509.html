@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2538,7 +2551,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-2648" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p><strong>"Oh that is very clever of them, and congratulations on your heroics!"</strong> An enthusiastic voice approached quickly from behind a berm behind the grizzly display. A man quickly emerged, mounted on a large horse draped in chain barding, bearing a lance and shield. Emblazoned on the shield was a symbol of an urn pouring out over a fortress. He wore gleaming metal armor that would've reflected the sun like a coat of pure light were it not for the smeared dirt and gore across its surface. Atop his head was a full helm with a bevor raised showing his face. By hid face alone, he couldn't have been older than his early twenties.&nbsp;</p>
-<p><strong>"Did I hear you say something about someone coming to repel the goblins? Is it you?"</strong> His speech carries a very distinct accent of Breannian origin. As he approached the wagon, it became apparent that he also wore a blue-and-white checkered tabard which bore the same emblem as his shield. <strong>"I am so pleased to meet you. I am Valen Benedictus, of Chateâu Bastion de la Mère de la Rivière. Do you have news of a mining town nearby, I believe called 'Sheercleft'?"</strong></p>
+<p><strong>"Did I hear you say something about someone coming to repel the goblins? Is it you?"</strong> His speech carries a very distinct accent of Breannian origin. As he approached the wagon, it became apparent that he also wore a blue-and-white checkered tabard which bore the same emblem as his shield. <strong>"I am so pleased to meet you. I am Valen Benedictus, of ChateÃ¢u Bastion de la MÃ¨re de la RiviÃ¨re. Do you have news of a mining town nearby, I believe called 'Sheercleft'?"</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2570,7 +2583,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -2929,7 +2942,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -3254,7 +3267,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2652" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>"Money and trade? Nothing else?" Valen's lance dips back until it rests comfortably on his shoulder, "Ah, then I am so very eager to see this town of Sheercleft now. Je suis très béni..." His eyes seem to stare off at something distant, "To survive such an attack and still be so strong! Your home must have a great army, many healers, and strong walls," the irony of the statement is made almost tangible with Valen's star-struck revere, "And here I ride, late to help, and spilling blood like some....barbare...Such things are so disgraceful. My hands were made to heal and protect, not to chase fleeing cowards a like some bloodthirsty wolf." For the first time, his perpetual smile falters, and he seems to shrivel in his armor.</p>
+                                <p>"Money and trade? Nothing else?" Valen's lance dips back until it rests comfortably on his shoulder, "Ah, then I am so very eager to see this town of Sheercleft now. Je suis trÃ¨s bÃ©ni..." His eyes seem to stare off at something distant, "To survive such an attack and still be so strong! Your home must have a great army, many healers, and strong walls," the irony of the statement is made almost tangible with Valen's star-struck revere, "And here I ride, late to help, and spilling blood like some....barbare...Such things are so disgraceful. My hands were made to heal and protect, not to chase fleeing cowards a like some bloodthirsty wolf." For the first time, his perpetual smile falters, and he seems to shrivel in his armor.</p>
 <p>Looking about, he grows even more melancholy at the site of his roadside display. "Je m'excuse, great ambassador. It seems I've wasted your time and my own. You've scattered the goblins beyond reckoning and are in some hurry. If you would, Sheercleft is that way, oui?" He points south on the road from where you came, "I will leave you to whatever business is in the north. I'm certain you ride to spread news to the dwarves that they will have no fears of goblins in the mountains."</p>
                                 
                             </div>
@@ -3283,7 +3296,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -4175,7 +4188,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -4708,7 +4721,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5065,7 +5078,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -6000,8 +6013,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6338,3 +6351,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=133 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:13 GMT -->
 </html>
+

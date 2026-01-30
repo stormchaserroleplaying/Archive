@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2533,7 +2546,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2308" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>The big Norscan lowers his head.&nbsp;<br>“I know, in fact. And I am so sorry. Perhaps I wasn’t aware of the whole scope of it until now that I have known the histories. I blame myself for not being smart enough to discover the stone and destroy it. I thought the faint trails I was&nbsp;&nbsp;sensing was the weird abilities of Vark and her hammer. And I blame myself everyday not to be powerful enough to stop them before. But listen professor, we tried, we fought hard and well to avoid it, we liberated Sheercleft from the goblins slavery and destroy the Maginobi cult. We couldn’t anticipate that young Vark was going to be controled in that way. We failed on stopping that but we make some good deeds and we helped a lot of people, and are doing more things to help all of them, including the good people of Hyrantar. We will go to the Empire and will stop them to release the evil. This I swear&nbsp;to you, I will become stronger, more powerful with the help of Thor we will stop this. All of this including the Morrigans you”ll see professor we will fix this.”&nbsp;<br>As he speaks he closes his fist and sparks of blue lighting crosses his fingers. When he spoke his last words the rumble of a distant thunder can be heard despite the clear skies.&nbsp;</p>
+                                <p>The big Norscan lowers his head.&nbsp;<br>â€œI know, in fact. And I am so sorry. Perhaps I wasnâ€™t aware of the whole scope of it until now that I have known the histories. I blame myself for not being smart enough to discover the stone and destroy it. I thought the faint trails I was&nbsp;&nbsp;sensing was the weird abilities of Vark and her hammer. And I blame myself everyday not to be powerful enough to stop them before. But listen professor, we tried, we fought hard and well to avoid it, we liberated Sheercleft from the goblins slavery and destroy the Maginobi cult. We couldnâ€™t anticipate that young Vark was going to be controled in that way. We failed on stopping that but we make some good deeds and we helped a lot of people, and are doing more things to help all of them, including the good people of Hyrantar. We will go to the Empire and will stop them to release the evil. This I swear&nbsp;to you, I will become stronger, more powerful with the help of Thor we will stop this. All of this including the Morrigans youâ€ll see professor we will fix this.â€&nbsp;<br>As he speaks he closes his fist and sparks of blue lighting crosses his fingers. When he spoke his last words the rumble of a distant thunder can be heard despite the clear skies.&nbsp;</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2887,8 +2900,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2310" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>“Until we meet again dear professor...” says Thurston and the elf walks away.&nbsp;<br>He follows the elf until he leaves the Silver Tower he then turns towards Val&nbsp;</p>
-<p>“Don’t get me wrong but... Jex the most moral? I mean I like the guy but I think the professor doesn’t know him very much... anyway he had a point and we must plan better our next actions... and where is Jex anyway? The day is late and we should regroup and start our next step.”&nbsp;</p>
+                                <p>â€œUntil we meet again dear professor...â€ says Thurston and the elf walks away.&nbsp;<br>He follows the elf until he leaves the Silver Tower he then turns towards Val&nbsp;</p>
+<p>â€œDonâ€™t get me wrong but... Jex the most moral? I mean I like the guy but I think the professor doesnâ€™t know him very much... anyway he had a point and we must plan better our next actions... and where is Jex anyway? The day is late and we should regroup and start our next step.â€&nbsp;</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4483,7 +4496,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2319" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p class="p1"><span class="s1">Vark’s mouth drops open in shock at the sudden aggression. “N-n-no- w-well I just- I didn’t c-contact him he- it the-the card- he sent me a dream, I yelled at him! And I think I hurt his feelings... But the card! It was under my pillow. And Seid identified it first s-so we knew it wasn’t bad!” The whole time he talks he occasionally glances at Seid as if calling for back up. “And... and it was exactly what we needed, to find Aury. He helped! And-and now that I think about it he’s been helping... well he was helping to get to the prison because he wanted to get out of there, and I don’t know if that means he’s good or bad... we’re pretty sure he’s not a lich at least. But- oh, yeah we figured out it was him in the prison! Well I’d kinda assumed but now we know. It wasn’t an ancient evil... unless he is an ancient evil... but he said Spangelhelm was just jealous of his power and well maybe he was just misunderstood? I don’t know...” He starts to trail off as his train of thought shifts from self defense to just rambling out the details they learned.</span></p>
+                                <p class="p1"><span class="s1">Varkâ€™s mouth drops open in shock at the sudden aggression. â€œN-n-no- w-well I just- I didnâ€™t c-contact him he- it the-the card- he sent me a dream, I yelled at him! And I think I hurt his feelings... But the card! It was under my pillow. And Seid identified it first s-so we knew it wasnâ€™t bad!â€ The whole time he talks he occasionally glances at Seid as if calling for back up. â€œAnd... and it was exactly what we needed, to find Aury. He helped! And-and now that I think about it heâ€™s been helping... well he was helping to get to the prison because he wanted to get out of there, and I donâ€™t know if that means heâ€™s good or bad... weâ€™re pretty sure heâ€™s not a lich at least. But- oh, yeah we figured out it was him in the prison! Well Iâ€™d kinda assumed but now we know. It wasnâ€™t an ancient evil... unless he is an ancient evil... but he said Spangelhelm was just jealous of his power and well maybe he was just misunderstood? I donâ€™t know...â€ He starts to trail off as his train of thought shifts from self defense to just rambling out the details they learned.</span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4663,9 +4676,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2320" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>“Oh! He is not a lich! That’s reassuring... you hurt his feelings because you yelled at him? I... I can’t...”</p>
-<p>Thurston stops trying to calm down. He looks at Vark, then to Seid, then to Vark again.&nbsp;<br><br>“Even Loki thinks he has been wronged and justifies his misdeeds. Yet, he will cause Armageddon.”&nbsp;<br>He stands.</p>
-<p>”And my father said I was stupid...”&nbsp;</p>
+                                <p>â€œOh! He is not a lich! Thatâ€™s reassuring... you hurt his feelings because you yelled at him? I... I canâ€™t...â€</p>
+<p>Thurston stops trying to calm down. He looks at Vark, then to Seid, then to Vark again.&nbsp;<br><br>â€œEven Loki thinks he has been wronged and justifies his misdeeds. Yet, he will cause Armageddon.â€&nbsp;<br>He stands.</p>
+<p>â€And my father said I was stupid...â€&nbsp;</p>
 <p>And he leaves the Silver Tower,after paying for his last ale.</p>
 <p>Feeling frustrated and betrayed he walks around the settlement and ends in the forge, asking if he can help . He needs to vent the guilt and frustration and some hours working with the hammer could help.&nbsp;</p>
                                 
@@ -5200,8 +5213,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2323" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>The whole exchange was as much entertainment as tension for Bründir. Like a dramatic play or ballad, it had conflict, struggle, betrayal, and spirit. It was enthralling, yet tedious, and Bründir cradled a drink as he sipped and waited patiently for the actors to finish their impromptu performance.</p>
-<p>When all was said, the dwarf looks to each, then asked plainly, "So we're just ignorin' th' hidey-hole a stone's throw from th' basilisk farm, then? Might be wrong 'ere, but I think they'd know somethin', right? Don' ask th' left hand what the right's up to, you know?" Bründir thinks for a moment on the last bit, wondering if the wisdom wasn't a little contradictory to his point.</p>
+                                <p>The whole exchange was as much entertainment as tension for BrÃ¼ndir. Like a dramatic play or ballad, it had conflict, struggle, betrayal, and spirit. It was enthralling, yet tedious, and BrÃ¼ndir cradled a drink as he sipped and waited patiently for the actors to finish their impromptu performance.</p>
+<p>When all was said, the dwarf looks to each, then asked plainly, "So we're just ignorin' th' hidey-hole a stone's throw from th' basilisk farm, then? Might be wrong 'ere, but I think they'd know somethin', right? Don' ask th' left hand what the right's up to, you know?" BrÃ¼ndir thinks for a moment on the last bit, wondering if the wisdom wasn't a little contradictory to his point.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5233,7 +5246,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5384,7 +5397,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2324" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><strong>"You're one to talk about people speaking as if they have authority <em>Jex</em>. You don't know anything about magic and <em>Seid</em> knows a lot and <em>he</em> said the card was safe to use. And Peldirion was there too so.. so it was fine. I wouldn't put anyone in danger again. But... uhm w-what did you discover about&nbsp;Matthew's nature? Thurston... he-he said something about bad luck?"</strong> he pauses a moment. <strong>"Anyway Bründir is right too, those dragonborn are connected to all of this somehow. We couldn't find much more about the Mo-"</strong> he lowers his voice to a whisper <strong>"<em><span style="font-size: 12px">the Morrigan</span></em>, but I don't like that they're out there doing gods know what either. Just... another loose thread."</strong></p>
+                                <p><strong>"You're one to talk about people speaking as if they have authority <em>Jex</em>. You don't know anything about magic and <em>Seid</em> knows a lot and <em>he</em> said the card was safe to use. And Peldirion was there too so.. so it was fine. I wouldn't put anyone in danger again. But... uhm w-what did you discover about&nbsp;Matthew's nature? Thurston... he-he said something about bad luck?"</strong> he pauses a moment. <strong>"Anyway BrÃ¼ndir is right too, those dragonborn are connected to all of this somehow. We couldn't find much more about the Mo-"</strong> he lowers his voice to a whisper <strong>"<em><span style="font-size: 12px">the Morrigan</span></em>, but I don't like that they're out there doing gods know what either. Just... another loose thread."</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5744,7 +5757,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-2326" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark crosses his arms indignantly. <strong>"Private investigator? <em>What-ever</em>. You-you... you don't know what you're talking about. He's not- well we don't know- it doesn't matter right now!&nbsp;He helped and now we know Aureaonus is alive. And Aury would know about Matthew, and the Morrigan, all of this. That's why I wanted to go there first anyway. But... well we could deal with the dragonborn and then go to Endelfjell."</strong> He looks to Val, Seid and Bründir for their opinions on that course of action, not interested in hearing Jex's mouth any more.</p>
+                                <p>Vark crosses his arms indignantly. <strong>"Private investigator? <em>What-ever</em>. You-you... you don't know what you're talking about. He's not- well we don't know- it doesn't matter right now!&nbsp;He helped and now we know Aureaonus is alive. And Aury would know about Matthew, and the Morrigan, all of this. That's why I wanted to go there first anyway. But... well we could deal with the dragonborn and then go to Endelfjell."</strong> He looks to Val, Seid and BrÃ¼ndir for their opinions on that course of action, not interested in hearing Jex's mouth any more.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -6001,8 +6014,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6339,3 +6352,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=116 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:07 GMT -->
 </html>
+

@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2730,8 +2743,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3231" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><span style="font-weight: 400">Valaith was barely holding her ground against the brutal onslaught from this Dwarven guardian’s burning light! As the last attack burns through her, she finds her stomach lurching and churning. As her companions rally, she fights against the pain all around her as she raises </span><i><span style="font-weight: 400">Rook</span></i><span style="font-weight: 400"> for one more attack. She slams the weapon into the dwarf with a brutal hit that causes the guardian to crack and fracture; she smiles grimly, but her eyes widen in surprise as </span><i><span style="font-weight: 400">something</span></i><span style="font-weight: 400"> seems to be holding this unnatural guardian together…</span></p>
-<p><span style="font-weight: 400">She quickly casts her eyes about the room and they fall upon a brazier next to the sarcophagus burning with the same blue glow as the dwarf’s eyes. That was it! The source of its power!! </span><b>“The brazier! Destroy the brazier, quick!” </b><span style="font-weight: 400">With trepidation she holds her ground against the guardian, hoping against hope that her friends can finish it off before it finishes her off, but she will not let this thing go after them.</span></p>
+                                <p><span style="font-weight: 400">Valaith was barely holding her ground against the brutal onslaught from this Dwarven guardianâ€™s burning light! As the last attack burns through her, she finds her stomach lurching and churning. As her companions rally, she fights against the pain all around her as she raises </span><i><span style="font-weight: 400">Rook</span></i><span style="font-weight: 400"> for one more attack. She slams the weapon into the dwarf with a brutal hit that causes the guardian to crack and fracture; she smiles grimly, but her eyes widen in surprise as </span><i><span style="font-weight: 400">something</span></i><span style="font-weight: 400"> seems to be holding this unnatural guardian togetherâ€¦</span></p>
+<p><span style="font-weight: 400">She quickly casts her eyes about the room and they fall upon a brazier next to the sarcophagus burning with the same blue glow as the dwarfâ€™s eyes. That was it! The source of its power!! </span><b>â€œThe brazier! Destroy the brazier, quick!â€ </b><span style="font-weight: 400">With trepidation she holds her ground against the guardian, hoping against hope that her friends can finish it off before it finishes her off, but she will not let this thing go after them.</span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2941,7 +2954,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3487,7 +3500,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4530,7 +4543,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3241" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark takes in the scenes on the wall with awe, trying to take note of every detail so that he can talk to Seid about it later. When he finally pulls his eyes away and looks back at his friends, there is a slight hurt in his eyes. The silence and suspicion he is met with aren’t surprising, but it stings nonetheless. <b>“I didn’t even want to come here in the first place. I wanted to go find Aury first.”</b> The matter of fact statement is muttered to himself as he begins walking back towards the ruby. <b>“I don’t think we can leave yet. I connected with the codex but the Rhunki said we have to take it. Uhm... Jex? Do you want to scout out that room over there while I figure this out?”</b></p>
+                                <p>Vark takes in the scenes on the wall with awe, trying to take note of every detail so that he can talk to Seid about it later. When he finally pulls his eyes away and looks back at his friends, there is a slight hurt in his eyes. The silence and suspicion he is met with arenâ€™t surprising, but it stings nonetheless. <b>â€œI didnâ€™t even want to come here in the first place. I wanted to go find Aury first.â€</b> The matter of fact statement is muttered to himself as he begins walking back towards the ruby. <b>â€œI donâ€™t think we can leave yet. I connected with the codex but the Rhunki said we have to take it. Uhm... Jex? Do you want to scout out that room over there while I figure this out?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4737,7 +4750,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5247,7 +5260,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3245" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark stares down at the codex in his hands, still processing all of this information. The relic has begun to calm down, but as Jex returns and tells of the teleportation circle the dizzying matrix begins to stir again. The codex flickers as this happens and a synchronized red light begins to flicker in Vark’s eyes as the gem routes information directly into the warlock’s brain. <b>“The codex can be used to activate the circle. We could use it to teleport back to Sheercleft actually, I remember the symbols there... but... well actually we’d probably have to clear it out from that side first since we blocked it.”</b> The light fades from his eyes and he turns to Jex. <b>“This is staying with me,”</b> he draws the ruby in closer to himself in a protective gesture. <b>“It’s leverage. If Matthew wants it so bad then... well we’ll be able to negotiate. I think I’m going to talk to him again once we’re back and if... well if anyone else has questions too then maybe we could ask him together?”</b> He looks at everyone now, hoping the offer of inclusion would ease some of the group’s suspicions.</p>
+                                <p>Vark stares down at the codex in his hands, still processing all of this information. The relic has begun to calm down, but as Jex returns and tells of the teleportation circle the dizzying matrix begins to stir again. The codex flickers as this happens and a synchronized red light begins to flicker in Varkâ€™s eyes as the gem routes information directly into the warlockâ€™s brain. <b>â€œThe codex can be used to activate the circle. We could use it to teleport back to Sheercleft actually, I remember the symbols there... but... well actually weâ€™d probably have to clear it out from that side first since we blocked it.â€</b> The light fades from his eyes and he turns to Jex. <b>â€œThis is staying with me,â€</b> he draws the ruby in closer to himself in a protective gesture. <b>â€œItâ€™s leverage. If Matthew wants it so bad then... well weâ€™ll be able to negotiate. I think Iâ€™m going to talk to him again once weâ€™re back and if... well if anyone else has questions too then maybe we could ask him together?â€</b> He looks at everyone now, hoping the offer of inclusion would ease some of the groupâ€™s suspicions.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5605,7 +5618,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3247" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark rolls his eyes. <b>“You’ve done nothing but try and tell me what to do.”</b> he snaps. <b>“It’s only leverage in my hands because I’m the only one who even kinda understands it. It was calling for me, the Rhunki even said so. Plus if you were listening to me, I said I think I can teach you all how to use it... I just need more time to study it. Which is why I want it back later, but... if it’ll get you to leave me alone then here,”</b> With a frustrated thrust he extends the codex for one of the others to grab, meanwhile glaring daggers at Jex. <b>“Take it.”</b></p>
+                                <p>Vark rolls his eyes. <b>â€œYouâ€™ve done nothing but try and tell me what to do.â€</b> he snaps. <b>â€œItâ€™s only leverage in my hands because Iâ€™m the only one who even kinda understands it. It was calling for me, the Rhunki even said so. Plus if you were listening to me, I said I think I can teach you all how to use it... I just need more time to study it. Which is why I want it back later, but... if itâ€™ll get you to leave me alone then here,â€</b> With a frustrated thrust he extends the codex for one of the others to grab, meanwhile glaring daggers at Jex. <b>â€œTake it.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -6038,8 +6051,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6376,3 +6389,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=162 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:23 GMT -->
 </html>
+

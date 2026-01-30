@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2715,8 +2728,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4192" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>The luminous vision leaves Vark dazed momentarily, and the codex drifts down to his lap as his eyes readjust to the flickering campfire. “That... that was Shahar? Wow... I... I’ve never seen anything like that.” Vark gives a brief description of the vision he saw before addressing Nikolai’s question.</p>
-<p>”C-crimson King you said, right? Well... that does sound like Matthew. He has lots of names: Gabriel, Abbathor, Asmodeus... &nbsp;He was one of the four generals in the Shadow War, once a human king who turned into a devil. What do you know of him?”</p>
+                                <p>The luminous vision leaves Vark dazed momentarily, and the codex drifts down to his lap as his eyes readjust to the flickering campfire. â€œThat... that was Shahar? Wow... I... Iâ€™ve never seen anything like that.â€ Vark gives a brief description of the vision he saw before addressing Nikolaiâ€™s question.</p>
+<p>â€C-crimson King you said, right? Well... that does sound like Matthew. He has lots of names: Gabriel, Abbathor, Asmodeus... &nbsp;He was one of the four generals in the Shadow War, once a human king who turned into a devil. What do you know of him?â€</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2900,7 +2913,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4193" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir carries more interest than his Norscan comrade, but largely keeps quiet since these are matters beyond his scope. He does, however, roll through the multitude of stories taught by his mother to see if anything sticks out as a match...</p>
+                                <p>BrÃ¼ndir carries more interest than his Norscan comrade, but largely keeps quiet since these are matters beyond his scope. He does, however, roll through the multitude of stories taught by his mother to see if anything sticks out as a match...</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2928,7 +2941,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -3615,7 +3628,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4197" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark remains seated, mouth agape, the ruby still clutched in his hands. He almost looks hurt by the sudden display of hostility. <b>“We... we were parleying though... is... is the Crimson King an enemy of Shahar? Just because I wield his power doesn’t mean that I follow him I just... I’m just trying to learn what he’s after.”</b> he says, a resolute edge finding its way into his voice.</p>
+                                <p>Vark remains seated, mouth agape, the ruby still clutched in his hands. He almost looks hurt by the sudden display of hostility. <b>â€œWe... we were parleying though... is... is the Crimson King an enemy of Shahar? Just because I wield his power doesnâ€™t mean that I follow him I just... Iâ€™m just trying to learn what heâ€™s after.â€</b> he says, a resolute edge finding its way into his voice.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3796,8 +3809,8 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4198" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>At the not so veiled threat of the stranger Thurston swallows what he was eating and says.</p>
-<p>”You see? Here is what I was talking before. All that weird magic and letting those entities into your mind and under your skin. You are clearly going mad if you think any of us will allow you to harm our friend.</p>
-<p>Now, calm down and listen. To be honest we had our reservations before, as Vark said he didn’t trust his patron entirely and we are trying to know more. No raid party that knows his worth runs into a village without scouting it before. Same principle here. We need to know more. And Vark has proven himself more than once and against dire test. I will not allow any stranger in the woods to doubt this and threaten him. “ he looks intensely to Nikolai “I don’t want to see if your magic has turned your brains blue or green. Please calm down.”&nbsp;</p>
+<p>â€You see? Here is what I was talking before. All that weird magic and letting those entities into your mind and under your skin. You are clearly going mad if you think any of us will allow you to harm our friend.</p>
+<p>Now, calm down and listen. To be honest we had our reservations before, as Vark said he didnâ€™t trust his patron entirely and we are trying to know more. No raid party that knows his worth runs into a village without scouting it before. Same principle here. We need to know more. And Vark has proven himself more than once and against dire test. I will not allow any stranger in the woods to doubt this and threaten him. â€œ he looks intensely to Nikolai â€œI donâ€™t want to see if your magic has turned your brains blue or green. Please calm down.â€&nbsp;</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3975,7 +3988,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4199" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir leaps and follows the others. Karakarin and Dumdrengi bare themselves as a bulwark of steel while the dwarf positions himself at the forefront. "Yep, what they all said. If yer head's in it, then I say ye go through me first. Yer toy better have a damn good punch, though. I'm not fast, but ye don' want me up close."</p>
+                                <p>BrÃ¼ndir leaps and follows the others. Karakarin and Dumdrengi bare themselves as a bulwark of steel while the dwarf positions himself at the forefront. "Yep, what they all said. If yer head's in it, then I say ye go through me first. Yer toy better have a damn good punch, though. I'm not fast, but ye don' want me up close."</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4003,7 +4016,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -4154,7 +4167,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4200" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>His stance seems to relax, the tenseness of his shoulders lessens noticeably. “It would seem that perhaps I misjudged the situation. I must speak with my patron on this, but they have the the instructions to locate the herald of the Crimson King and bring them back to the light or destroy them if they cannot be redeemed. If what you say is true, then it might seem that you are not the herald or Shahar does not see your inner desires.”</p>
+                                <p>His stance seems to relax, the tenseness of his shoulders lessens noticeably. â€œIt would seem that perhaps I misjudged the situation. I must speak with my patron on this, but they have the the instructions to locate the herald of the Crimson King and bring them back to the light or destroy them if they cannot be redeemed. If what you say is true, then it might seem that you are not the herald or Shahar does not see your inner desires.â€</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4333,7 +4346,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4201" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>"Yep! No heralds or kings 'ere." Bründir's tone lifted, but his weapons took longer to follow suit, "Just a naive lad with a knack fer makin' friends too easy. If we're more calm now, how 'bout we share on th' trip? Seems we all know a lot about things goin' on, but it's just pieces of a bigger picture."</p>
+                                <p>"Yep! No heralds or kings 'ere." BrÃ¼ndir's tone lifted, but his weapons took longer to follow suit, "Just a naive lad with a knack fer makin' friends too easy. If we're more calm now, how 'bout we share on th' trip? Seems we all know a lot about things goin' on, but it's just pieces of a bigger picture."</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4361,7 +4374,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -4540,7 +4553,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5053,9 +5066,9 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4205" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p><span style="font-weight: 400">While the children of Thor see the brewing storm as an omen, Vark sees the dark clouds as a point of focus. The churning skies match the swell of thoughts that have been stirring inside the young sorcerer's head since they left Morloth. It's true that they ride into potential conflict, but Vark is at least confidant that Sheercleft will not be caught unaware.</span></p>
-<p><b>"That is... concerning news. I wonder if the Mabinogi are behind this. I'll alert the guards."</b> Seid's response came to Vark with a slight magical hum through the runestone. He'd nearly forgotten to send word ahead about the incoming Cambrians, but after that first long night talking to Nikolai he knew he had much to update the wizard on.<b> "Shahar is actually an infernal word; it means 'dawn'. It’s not yet clear if we can trust this Nikolai, but he could possibly be a powerful ally."</b></p>
-<p>As the days went on, Vark indeed pressed the possibility that the tiefling could become an ally in what was feeling more and more like an inevitable conflict with Matthew. When Vark had first used the runestone to gaze upon the celestial entity he'd had an idea. The way Shahar's light had filled the ruby, changing it briefly from crimson red to pearlescent white... could it be possible that Shahar was powerful enough to remove or even replace Matthew's hold on the runestone? Over the next few days Vark shared this idea with Nikolai, as well as all they had learned about the runestone from their foray into its depths. In turn Nikolai explained the way in which his patron communicated with him, and decided to consult Shahar on what the enigmatic celestial thought about Vark’z plan. Upon seeing the deck of cards Vark was reminded of the card that Matthew had gifted him to allow him to scry on Aureaonus. This is far more complex though and as the nine cards were produced from the deck, Vark had no idea what any of it could mean. <b>“Uhm… well… we’re both magicians right? And so is Matthew… The Sun looks positive… kinda looks like Shahar actually…” </b>It would take some time to completely decipher the cryptic response, and Vark was eager to see what Seid’s interpretation would be.</p>
-<p>Thunder rumbles now as these thoughts whip around Vark’s mind just as the wind whips at his cloak, but a smile comes to the young hero’s lips as Sheercleft comes into view. Despite the turmoil within and without, it feels good to be home.</p>
+<p><b>"That is... concerning news. I wonder if the Mabinogi are behind this. I'll alert the guards."</b> Seid's response came to Vark with a slight magical hum through the runestone. He'd nearly forgotten to send word ahead about the incoming Cambrians, but after that first long night talking to Nikolai he knew he had much to update the wizard on.<b> "Shahar is actually an infernal word; it means 'dawn'. Itâ€™s not yet clear if we can trust this Nikolai, but he could possibly be a powerful ally."</b></p>
+<p>As the days went on, Vark indeed pressed the possibility that the tiefling could become an ally in what was feeling more and more like an inevitable conflict with Matthew. When Vark had first used the runestone to gaze upon the celestial entity he'd had an idea. The way Shahar's light had filled the ruby, changing it briefly from crimson red to pearlescent white... could it be possible that Shahar was powerful enough to remove or even replace Matthew's hold on the runestone? Over the next few days Vark shared this idea with Nikolai, as well as all they had learned about the runestone from their foray into its depths. In turn Nikolai explained the way in which his patron communicated with him, and decided to consult Shahar on what the enigmatic celestial thought about Varkâ€™z plan. Upon seeing the deck of cards Vark was reminded of the card that Matthew had gifted him to allow him to scry on Aureaonus. This is far more complex though and as the nine cards were produced from the deck, Vark had no idea what any of it could mean. <b>â€œUhmâ€¦ wellâ€¦ weâ€™re both magicians right? And so is Matthewâ€¦ The Sun looks positiveâ€¦ kinda looks like Shahar actuallyâ€¦â€ </b>It would take some time to completely decipher the cryptic response, and Vark was eager to see what Seidâ€™s interpretation would be.</p>
+<p>Thunder rumbles now as these thoughts whip around Varkâ€™s mind just as the wind whips at his cloak, but a smile comes to the young heroâ€™s lips as Sheercleft comes into view. Despite the turmoil within and without, it feels good to be home.</p>
 <p>&nbsp;</p>
                                 
                             </div>
@@ -5237,7 +5250,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4206" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>The guards on the western side of the village are clearly watching for the Acharnost's return. By the time the riders have reached the&nbsp;refurbished hobgoblin checkpoint, Brynja, Dorno and Seid have gathered to meet them.</p>
-<p><strong>"How'd'y'always manage to bring home more trouble than y'left with, hm, lad?"</strong> Bründir's mother scolds jovially, reaching up to embrace him.</p>
+<p><strong>"How'd'y'always manage to bring home more trouble than y'left with, hm, lad?"</strong> BrÃ¼ndir's mother scolds jovially, reaching up to embrace him.</p>
 <p>Dorno merely waves a big, wide smile, while Seid makes a beeline for Vark.</p>
 <p><strong>"Who's this then?"</strong> Brynja adds, nodding to Nikolai.</p>
                                 
@@ -5266,7 +5279,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5417,7 +5430,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4207" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>"Who Nik? He's....well maybe not a friend, but might be a big help. Why'd'ya say he's trouble? Ya just met'im!" Bründir hugs his mother and motions to Nikolai, "Name's Nikolai, not sure where he came from, but we can figure all that with drinks an' food. Speakin' of, it's been a long trip, an' there's more'n a few stories needin' t'be said." The dwarf turns a moment to the others, "Drinks on Seid! Or maybe Nik. Thurston, Aiden, I don' need task if yer drinkin'. Norscans're always good fer it. Well, come on. Are we all jus' gonna stand 'round blockin' a gate sober?"</p>
+                                <p>"Who Nik? He's....well maybe not a friend, but might be a big help. Why'd'ya say he's trouble? Ya just met'im!" BrÃ¼ndir hugs his mother and motions to Nikolai, "Name's Nikolai, not sure where he came from, but we can figure all that with drinks an' food. Speakin' of, it's been a long trip, an' there's more'n a few stories needin' t'be said." The dwarf turns a moment to the others, "Drinks on Seid! Or maybe Nik. Thurston, Aiden, I don' need task if yer drinkin'. Norscans're always good fer it. Well, come on. Are we all jus' gonna stand 'round blockin' a gate sober?"</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5445,7 +5458,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5596,7 +5609,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4208" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><strong>"The baron, not the tiefling y'twit,"</strong> Brynja retorts, slapping at Bründir's leg. <strong>"Come inside and let's 'ear what y'all have in mind."</strong></p>
+                                <p><strong>"The baron, not the tiefling y'twit,"</strong> Brynja retorts, slapping at BrÃ¼ndir's leg. <strong>"Come inside and let's 'ear what y'all have in mind."</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5627,7 +5640,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -6034,8 +6047,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6372,3 +6385,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=210 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:38 GMT -->
 </html>
+

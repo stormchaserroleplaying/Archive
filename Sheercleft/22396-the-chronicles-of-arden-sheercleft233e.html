@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2365,7 +2378,7 @@ line-height: 1.5rem; }
 <p>As Matthew speaks, his voice drops and distorts, patches of red skin and blackened horns flickering through the image of his glitching avatar. His hand pulls away and the ruby seems to shear impossibly as another version of itself phases away from the cube that Vark still holds in his hand. Grinning wickedly at his warlock, Matthew swings the codex down&nbsp;towards the ground and a black rod extends from its underside, forming a staff with the ruby mounted atop it. In an instant he is transformed into a red-skinned man over thirteen feet tall, with horns on his head and glowing red eyes. The fiend is devilishly handsome, his charcoal beard perfectly trimmed and his long form draped all in fine cardinal silks and velvets trimmed with ebony. The codex still in Vark's hand crackles and sparks, but seems somehow smaller.</p>
 <p><strong>"You have done well, my boy,"</strong> Matthew tells the half-orc, his voice booming and empowered, <strong>"and you shall be rewarded."</strong> He crouches, extending his free hand towards Vark, rivulets of the codex's energy running down to his fingertips. <strong>"Come. Taste <em>true</em> power."</strong></p>
 <hr>
-<p><strong>"Well, Bründir Halfshield,"</strong> the <em>Sonnlinor</em> tells him, turning the <em>Dumdrengi</em> around to hand Bründir the hilt, <strong>"a blade like this chooses its wielder. I'd say that it was meant for you to bear."</strong></p>
+<p><strong>"Well, BrÃ¼ndir Halfshield,"</strong> the <em>Sonnlinor</em> tells him, turning the <em>Dumdrengi</em> around to hand BrÃ¼ndir the hilt, <strong>"a blade like this chooses its wielder. I'd say that it was meant for you to bear."</strong></p>
 <p>&nbsp;</p>
                                 
                             </div>
@@ -2393,7 +2406,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -2544,7 +2557,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3310" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark’s face is awash in horror as the crimson energy surges up and around him. Between Matthew’s fully realized infernal form and the continued download of information from the codex, the warlock is too overwhelmed to form much of a coherent thought much less respond. The hailstone in his throat grows into an iceberg that plummets to the bottom of his gut as he is able to process one painful realization though: <i>Jex was right.</i> He gazes over to the two Norscans with a look somewhere between an apology and pure terror, then reaches out to take Matthew’s hand.</p>
+                                <p>Varkâ€™s face is awash in horror as the crimson energy surges up and around him. Between Matthewâ€™s fully realized infernal form and the continued download of information from the codex, the warlock is too overwhelmed to form much of a coherent thought much less respond. The hailstone in his throat grows into an iceberg that plummets to the bottom of his gut as he is able to process one painful realization though: <i>Jex was right.</i> He gazes over to the two Norscans with a look somewhere between an apology and pure terror, then reaches out to take Matthewâ€™s hand.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2935,7 +2948,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3086,8 +3099,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3313" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir's straightened back slumped, "So that's it, then. Got a blade with a mind, can't talk worth a damn, an' chose me fer somethin' it can't tell." The dwarf stands and waves toward the altar, "So, what? I'm jus' s'posed to lay down t'night, have a lil' sleep, an'..." Bründir's eyes narrow as realization hits him, "Sonofa*****, when we're done I'm meltin' ye down an' makin' a fine ass-scratcher outta ye."</p>
-<p>Bründir details his dream to the Sonnlinor. The crowned dwarf, the encroaching forces, and Dumdrengi's penetrating radiance. "Look," Bründir begins after his account, "I'm a miner, a decent fighter from all this, an' now half-blind. What in all th' world, above an' b'low, could I do?"</p>
+                                <p>BrÃ¼ndir's straightened back slumped, "So that's it, then. Got a blade with a mind, can't talk worth a damn, an' chose me fer somethin' it can't tell." The dwarf stands and waves toward the altar, "So, what? I'm jus' s'posed to lay down t'night, have a lil' sleep, an'..." BrÃ¼ndir's eyes narrow as realization hits him, "Sonofa*****, when we're done I'm meltin' ye down an' makin' a fine ass-scratcher outta ye."</p>
+<p>BrÃ¼ndir details his dream to the Sonnlinor. The crowned dwarf, the encroaching forces, and Dumdrengi's penetrating radiance. "Look," BrÃ¼ndir begins after his account, "I'm a miner, a decent fighter from all this, an' now half-blind. What in all th' world, above an' b'low, could I do?"</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3115,7 +3128,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -3266,7 +3279,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3314" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><strong>"Half-blind we can remedy,"</strong> the <em>Sonnlinor</em> notes kindly. <strong>"Healing such a wound might be beyond our power here, but Moradin's gifts are many. An <em>okriadok</em> is what you require. It won't return your eye, but you <em>will</em> see. As for the night terrors, beware of finding too much meaning in a fever dream. Perhaps it is meant to tell you something, perhaps it is only your own inference. All you can decide is what to do with the time that has been given to you. It sounds like, so far, you have done much. Do you <em>want</em> to stop? What is it that you are fighting for, Bründir Halfshield?"</strong></p>
+                                <p><strong>"Half-blind we can remedy,"</strong> the <em>Sonnlinor</em> notes kindly. <strong>"Healing such a wound might be beyond our power here, but Moradin's gifts are many. An <em>okriadok</em> is what you require. It won't return your eye, but you <em>will</em> see. As for the night terrors, beware of finding too much meaning in a fever dream. Perhaps it is meant to tell you something, perhaps it is only your own inference. All you can decide is what to do with the time that has been given to you. It sounds like, so far, you have done much. Do you <em>want</em> to stop? What is it that you are fighting for, BrÃ¼ndir Halfshield?"</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3293,7 +3306,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3445,7 +3458,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-3315" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Thurston was thinking about what that word could mean, and if that Matthew had just insulted them or don't. And then the red beam of light engulfed Vark and he looks back to them.&nbsp;</p>
-<p>"¡VARK!" he yells seeing that he is reaching over something or someone, seeing how his body shakes from something. He reaches out with his hand. "¡Vark come to us!!" he tries to step into the red beam light so his friend can reach to him. The other hand grabs his hammer. Jex wouldn't had hesitated but he needs to give the young half-orc a last chance.&nbsp;</p>
+<p>"Â¡VARK!" he yells seeing that he is reaching over something or someone, seeing how his body shakes from something. He reaches out with his hand. "Â¡Vark come to us!!" he tries to step into the red beam light so his friend can reach to him. The other hand grabs his hammer. Jex wouldn't had hesitated but he needs to give the young half-orc a last chance.&nbsp;</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3806,7 +3819,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3317" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>“I don’t know what is doing to him!” Replies Thurston to Aiden “If I knock him down perhaps I can break their connection and free Vark.” He turns again towards the half-orc “Vark!! Can you hear me? Come back to us!” He yells reaching out with his left arm, feeling the frustration and anger grow within him. This whole situation was so frustrating.&nbsp;</p>
+                                <p>â€œI donâ€™t know what is doing to him!â€ Replies Thurston to Aiden â€œIf I knock him down perhaps I can break their connection and free Vark.â€ He turns again towards the half-orc â€œVark!! Can you hear me? Come back to us!â€ He yells reaching out with his left arm, feeling the frustration and anger grow within him. This whole situation was so frustrating.&nbsp;</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4162,7 +4175,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3319" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p class="p1"><span class="s1"><b>“I’m... I’’m okay.”</b> He says to his companions as the holy warriors look ready to jump into action. Perhaps they <i>should</i> smite him. As the emotion of the moment subsides and Vark begins to process what has happened, there is a shift in him. He looks hardened. He glances down at the flowing veins of crimson that now cut across his skin and thinks for a moment. <b>“It’s uhm... well he just... he just needed to see it. To connect with it. Like I did down below.”</b> His eyes&nbsp;cut back to Matthew’s <b>“Everything’s alright... and he says I can hold on to it. For now. T-to study it, so we can use its information.”</b> He nods, trying to convince himself. <b>“Now he says he will answer questions and... well... yes Matthew, I have a lot. The codex showed me things. It showed me you fighting against Spangelhelm, and others... your siblings I guess, they were all fighting battles too. I talked to Seid about it and he told me about the- the elemental cycle that humans, elves, dwarves, and dragons fit into.</b>&nbsp;<b>It seems like you and your siblings each correspond to one those elements but... there’s something missing, it doesn’t match up like it ought to. I know you said you served the fifth dawn god too... Matthew what does all of that mean? What were you all fighting for? What was- what is your goal?”</b></span></p>
+                                <p class="p1"><span class="s1"><b>â€œIâ€™m... Iâ€™â€™m okay.â€</b> He says to his companions as the holy warriors look ready to jump into action. Perhaps they <i>should</i> smite him. As the emotion of the moment subsides and Vark begins to process what has happened, there is a shift in him. He looks hardened. He glances down at the flowing veins of crimson that now cut across his skin and thinks for a moment. <b>â€œItâ€™s uhm... well he just... he just needed to see it. To connect with it. Like I did down below.â€</b> His eyes&nbsp;cut back to Matthewâ€™s <b>â€œEverythingâ€™s alright... and he says I can hold on to it. For now. T-to study it, so we can use its information.â€</b> He nods, trying to convince himself. <b>â€œNow he says he will answer questions and... well... yes Matthew, I have a lot. The codex showed me things. It showed me you fighting against Spangelhelm, and others... your siblings I guess, they were all fighting battles too. I talked to Seid about it and he told me about the- the elemental cycle that humans, elves, dwarves, and dragons fit into.</b>&nbsp;<b>It seems like you and your siblings each correspond to one those elements but... thereâ€™s something missing, it doesnâ€™t match up like it ought to. I know you said you served the fifth dawn god too... Matthew what does all of that mean? What were you all fighting for? What was- what is your goal?â€</b></span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4342,9 +4355,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3320" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>The Sonnlinor's question shook Bründir's very foundation with doubt. Just minutes before, he wanted to abandon his sword and return to the mines of Sheercleft. "Do heroes want t'be heroes b'fore stories are made? Suppose it's just someone wantin' a nice, comfy life, a good trade, an' maybe a family." The dwarf's tone seemed to ignore the question that came before, as though Bründir had slipped into a fugue state.</p>
-<p>"I don' want this...any of it. But there's too much out there. What happens if goblins come back? What happens if all this shit comes back twice as bad, an' I'm 'ere knowin' about it?" Bründir's tone rises as panic creeps into his throat, "What if some poor bastard with light shinin' out their ass is sittin' at home right now, an' could fix all this, but won't know 'til it's too late?!" The dwarf's hands shake as he tucks his head low, "I want my home, an' my family. I want t'go back a month an' stay there. But I cant, 'cause some damned goblins tore it apart, an' are still squattin' in th' hills."</p>
-<p>Bründir's voice shifts back to indignation, and frustration, "Worse, we've got demons, dragons, cults, an' who knows what else?! What's the answer when you don't want troubles, but're knocking your door down?"</p>
+                                <p>The Sonnlinor's question shook BrÃ¼ndir's very foundation with doubt. Just minutes before, he wanted to abandon his sword and return to the mines of Sheercleft. "Do heroes want t'be heroes b'fore stories are made? Suppose it's just someone wantin' a nice, comfy life, a good trade, an' maybe a family." The dwarf's tone seemed to ignore the question that came before, as though BrÃ¼ndir had slipped into a fugue state.</p>
+<p>"I don' want this...any of it. But there's too much out there. What happens if goblins come back? What happens if all this shit comes back twice as bad, an' I'm 'ere knowin' about it?" BrÃ¼ndir's tone rises as panic creeps into his throat, "What if some poor bastard with light shinin' out their ass is sittin' at home right now, an' could fix all this, but won't know 'til it's too late?!" The dwarf's hands shake as he tucks his head low, "I want my home, an' my family. I want t'go back a month an' stay there. But I cant, 'cause some damned goblins tore it apart, an' are still squattin' in th' hills."</p>
+<p>BrÃ¼ndir's voice shifts back to indignation, and frustration, "Worse, we've got demons, dragons, cults, an' who knows what else?! What's the answer when you don't want troubles, but're knocking your door down?"</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4372,7 +4385,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -4557,7 +4570,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4888,7 +4901,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3323" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Well, <i>I</i> wanted to go deal with the dragonborns but Jex wanted to come here to do business first and then you and the Rhunki wanted me to get the ruby so...”</b> he relents the torrent of frustration with a sigh, trying to remain focused. <b>“Bane? I guess he’s the other sibling, and a dwarf right? And you all served the Fifth.... but who <i>was</i> the Fifth? How did you all serve him, what did you do? And... what are you going to do now? After you free your siblings I mean... you never answer that question when I ask it. Is it because you know I won’t like the answer?”</b></p>
+                                <p><b>â€œWell, <i>I</i> wanted to go deal with the dragonborns but Jex wanted to come here to do business first and then you and the Rhunki wanted me to get the ruby so...â€</b> he relents the torrent of frustration with a sigh, trying to remain focused. <b>â€œBane? I guess heâ€™s the other sibling, and a dwarf right? And you all served the Fifth.... but who <i>was</i> the Fifth? How did you all serve him, what did you do? And... what are you going to do now? After you free your siblings I mean... you never answer that question when I ask it. Is it because you know I wonâ€™t like the answer?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5099,7 +5112,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5250,7 +5263,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3325" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p class="p1"><span class="s1"><b>“I’m always going to have more questions, and maybe I’d have a better idea of the right questions to ask if your answers weren’t so vague.”</b> he counters. He looks away to collects his thoughts. <b>“Tell me more about the Fifth. What do you mean he <i>‘was the balance’</i>? And what exactly <i>was</i> his message that you and the others spread?”</b></span></p>
+                                <p class="p1"><span class="s1"><b>â€œIâ€™m always going to have more questions, and maybe Iâ€™d have a better idea of the right questions to ask if your answers werenâ€™t so vague.â€</b> he counters. He looks away to collects his thoughts. <b>â€œTell me more about the Fifth. What do you mean he <i>â€˜was the balanceâ€™</i>? And what exactly <i>was</i> his message that you and the others spread?â€</b></span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5457,7 +5470,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5608,7 +5621,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-3327" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p class="p1"><span class="s1"><b>“I don’t need to know millennia of ancient history but... ok. That’s a start.”</b> He says with a nod. “<b>So is that why you were all imprisoned? Because you were... immortal? And... what happened to the Fifth when you were all locked away?”</b></span></p>
+                                <p class="p1"><span class="s1"><b>â€œI donâ€™t need to know millennia of ancient history but... ok. Thatâ€™s a start.â€</b> He says with a nod. â€œ<b>So is that why you were all imprisoned? Because you were... immortal? And... what happened to the Fifth when you were all locked away?â€</b></span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5815,7 +5828,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -6043,8 +6056,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6381,3 +6394,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=166 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:25 GMT -->
 </html>
+

@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2538,7 +2551,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4812" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>The stalk-like tentacles begin to walk as legs, advancing on Bründir even as fire erupts from an orifice somewhere near their base. The blast chases Rikkazarik up toward Thurston, engulfing the Norscan in flame, while a noxious yellow cloud begins to spread from the appendages, causing everybody nearby to hack and cough on the toxic fumes.</p>
+                                <p>The stalk-like tentacles begin to walk as legs, advancing on BrÃ¼ndir even as fire erupts from an orifice somewhere near their base. The blast chases Rikkazarik up toward Thurston, engulfing the Norscan in flame, while a noxious yellow cloud begins to spread from the appendages, causing everybody nearby to hack and cough on the toxic fumes.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2565,7 +2578,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -2895,7 +2908,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4815" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir gave Stonebrow a quick spur forward. The boar lunged, but the multi-limbed monstrosity quickly side-stepped. The mounted Dwarf, however, was growing accustomed to the tandem style of combat. As the boar went low, Bründir swung Dumdrengi high. Runes on his masterwork armour flared to life with the strike. Steel cut the otherworldly flesh, leaving a glowing wound behind.</p>
+                                <p>BrÃ¼ndir gave Stonebrow a quick spur forward. The boar lunged, but the multi-limbed monstrosity quickly side-stepped. The mounted Dwarf, however, was growing accustomed to the tandem style of combat. As the boar went low, BrÃ¼ndir swung Dumdrengi high. Runes on his masterwork armour flared to life with the strike. Steel cut the otherworldly flesh, leaving a glowing wound behind.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2923,7 +2936,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -3283,7 +3296,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3434,7 +3447,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4818" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><strong>"Well struck,&nbsp;bróðir!"&nbsp;</strong>Aiden says as Marcellus falls. The cleric watches in horror as the tentacles begin to write again, but quickly shakes himself free and directs the aura around him to begin to immolate the sickly flesh. A sizzling sound rises from the fallen knight's corpse, like fat dripping from a spit to the fire. Aiden lays a hand on Thurston, bestowing pure divine essence into the paladin and reinvigorating him, all the while never taking his eyes off Marcellus.</p>
+                                <p><strong>"Well struck,&nbsp;brÃ³Ã°ir!"&nbsp;</strong>Aiden says as Marcellus falls. The cleric watches in horror as the tentacles begin to write again, but quickly shakes himself free and directs the aura around him to begin to immolate the sickly flesh. A sizzling sound rises from the fallen knight's corpse, like fat dripping from a spit to the fire. Aiden lays a hand on Thurston, bestowing pure divine essence into the paladin and reinvigorating him, all the while never taking his eyes off Marcellus.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3612,7 +3625,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4819" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Taking the cue from Aiden’s continued assault on the writhing remains of the Star Knight, Vark swoops closer until he is right above their foe’s corpse. He points Pathmaker straight down and unleashes a torrent of crimson flame from its point, scorching the mountain stone and roasting the aberrant flesh. As the flames subside, the infernal runes which Bark cast earlier can be seen glowing for a moment, inflicting more of the warlock’s wrath.</p>
+                                <p>Taking the cue from Aidenâ€™s continued assault on the writhing remains of the Star Knight, Vark swoops closer until he is right above their foeâ€™s corpse. He points Pathmaker straight down and unleashes a torrent of crimson flame from its point, scorching the mountain stone and roasting the aberrant flesh. As the flames subside, the infernal runes which Bark cast earlier can be seen glowing for a moment, inflicting more of the warlockâ€™s wrath.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3999,7 +4012,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4150,9 +4163,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4822" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark waits and watches from the air as their foes flee from the battlefield. The cries of Sheercleft’s forces and allies begin to ring out behind him and in his own show of victory Vark&nbsp;thrusts one hand forwards into the air. One last mighty BOOM rings out above Quenlan Pass. It’s a death knell for Marcellus and a thunderous offering to Thor. It rumbles for a moment after, echoing the equally thunderous cheers that ring below it, and finally Vark descends to join the Acharnost.</p>
-<p><b>“Is everyone okay?”</b> he asks, but already his eyes are glowing in search of any lingering magical threats or surprises left in the monster’s wake. He points out the Star Knight’s sword and armor before something small and black catches his eyes. Curiosity outweighing reason in the moment, Vark leans down.</p>
-<p><b>”What’s this?”</b> he says, before picking up the stone.</p>
+                                <p>Vark waits and watches from the air as their foes flee from the battlefield. The cries of Sheercleftâ€™s forces and allies begin to ring out behind him and in his own show of victory Vark&nbsp;thrusts one hand forwards into the air. One last mighty BOOM rings out above Quenlan Pass. Itâ€™s a death knell for Marcellus and a thunderous offering to Thor. It rumbles for a moment after, echoing the equally thunderous cheers that ring below it, and finally Vark descends to join the Acharnost.</p>
+<p><b>â€œIs everyone okay?â€</b> he asks, but already his eyes are glowing in search of any lingering magical threats or surprises left in the monsterâ€™s wake. He points out the Star Knightâ€™s sword and armor before something small and black catches his eyes. Curiosity outweighing reason in the moment, Vark leans down.</p>
+<p><b>â€Whatâ€™s this?â€</b> he says, before picking up the stone.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4333,7 +4346,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4823" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Vark's hand closes around the stone and his vision goes black. He sees an unending field of stars lain out in the void before him and feels the inescapable sensation that something vast and alien lurks in the darkness between them.</p>
-<p><strong>"Yᴏᴜ ᴀʀᴇ ɴᴏᴛ Mᴀʀᴄᴇʟʟᴜs."</strong></p>
+<p><strong>"Yá´á´œ á´€Ê€á´‡ É´á´á´› Má´€Ê€á´„á´‡ÊŸÊŸá´œs."</strong></p>
 <p>The words echo soundlessly in the sorcerer's mind.</p>
                                 
                             </div>
@@ -4361,7 +4374,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4512,7 +4525,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4824" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“N-no.”</b> <i>Get it together!&nbsp;</i> <b>“I’m not. He is dead. Who are you?”</b> He does his best to stand resolute under the looming weight of this unknowable horror.</p>
+                                <p><b>â€œN-no.â€</b> <i>Get it together!&nbsp;</i> <b>â€œIâ€™m not. He is dead. Who are you?â€</b> He does his best to stand resolute under the looming weight of this unknowable horror.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4692,7 +4705,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4825" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><strong>"Yᴏᴜ ᴛᴏᴜᴄʜ ᴍʏ ᴍɪɴᴅ, ғᴜᴍʙʟɪɴɢ ɪɴ ɪɢɴᴏʀᴀɴᴄᴇ, ɪɴᴄᴀᴘᴀʙʟᴇ ᴏғ ᴜɴᴅᴇʀsᴛᴀɴᴅɪɴɢ,"</strong> the voice rebukes Vark.<strong> "Tʜᴇʀᴇ ɪs ᴀ ʀᴇᴀʟᴍ ᴏғ ᴇxɪsᴛᴇɴᴄᴇ sᴏ ғᴀʀ ʙᴇʏᴏɴᴅ ʏᴏᴜʀ ᴏᴡɴ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴇᴠᴇɴ ɪᴍᴀɢɪɴᴇ ɪᴛ. I ᴀᴍ ʙᴇʏᴏɴᴅ ʏᴏᴜʀ ᴄᴏᴍᴘʀᴇʜᴇɴsɪᴏɴ."</strong></p>
+                                <p><strong>"Yá´á´œ á´›á´á´œá´„Êœ á´Ê á´ÉªÉ´á´…, Ò“á´œá´Ê™ÊŸÉªÉ´É¢ ÉªÉ´ ÉªÉ¢É´á´Ê€á´€É´á´„á´‡, ÉªÉ´á´„á´€á´˜á´€Ê™ÊŸá´‡ á´Ò“ á´œÉ´á´…á´‡Ê€sá´›á´€É´á´…ÉªÉ´É¢,"</strong> the voice rebukes Vark.<strong> "TÊœá´‡Ê€á´‡ Éªs á´€ Ê€á´‡á´€ÊŸá´ á´Ò“ á´‡xÉªsá´›á´‡É´á´„á´‡ sá´ Ò“á´€Ê€ Ê™á´‡Êá´É´á´… Êá´á´œÊ€ á´á´¡É´ á´›Êœá´€á´› Êá´á´œ á´„á´€É´É´á´á´› á´‡á´ á´‡É´ Éªá´á´€É¢ÉªÉ´á´‡ Éªá´›. I á´€á´ Ê™á´‡Êá´É´á´… Êá´á´œÊ€ á´„á´á´á´˜Ê€á´‡Êœá´‡É´sÉªá´É´."</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4723,7 +4736,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4874,8 +4887,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4826" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark yanks back wrenching his mind from the entity’s chilling grasp. The stone drops his fingers as he blinks the void from his eyes.</p>
-<p><b>”I- I… I wouldn’t touch that…”&nbsp;</b></p>
+                                <p>Vark yanks back wrenching his mind from the entityâ€™s chilling grasp. The stone drops his fingers as he blinks the void from his eyes.</p>
+<p><b>â€I- Iâ€¦ I wouldnâ€™t touch thatâ€¦â€&nbsp;</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5055,7 +5068,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4827" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Val comes rushing up to rejoin her companions, a burning shame filling her as they faced this threat without her. Before she can say much, Vark suddenly plucks up the blackened stone and she lets out a curse in Giant. When he drops it and indicates it is dangerous she nods and raises <i>Rook</i> above her hand. <b>“Then let’s be rid of it!”</b></p>
+                                <p>Val comes rushing up to rejoin her companions, a burning shame filling her as they faced this threat without her. Before she can say much, Vark suddenly plucks up the blackened stone and she lets out a curse in Giant. When he drops it and indicates it is dangerous she nods and raises <i>Rook</i> above her hand. <b>â€œThen letâ€™s be rid of it!â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5415,8 +5428,8 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4829" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Vark shakes his head, not wanting to remember.&nbsp;</p>
-<p><b>“It- it must have been whatever gave Marcellus his powers. Something massive and… alien sitting in the darkness between the stars. It seemed… upset?”</b> The assessment of the entity’s temperament&nbsp;is a stab in the dark, because surely no mortal emotion could ever be used to accurately describe the aberrant presence.</p>
-<p><b>”I’m not sure Rook will be able to put much of a scratch on it,”</b> he says, turning to Val. <b>“It’s powerful, but we should definitely try to destroy it or at least seal it away somewhere. Maybe I could hide it in Aury’s keep.”</b> He points to Marcellus’ armor and weapon, <b>“Those &nbsp;are magic too, probably not dangerous but we should still be careful with them. I can identify them back at camp.”</b></p>
+<p><b>â€œIt- it must have been whatever gave Marcellus his powers. Something massive andâ€¦ alien sitting in the darkness between the stars. It seemedâ€¦ upset?â€</b> The assessment of the entityâ€™s temperament&nbsp;is a stab in the dark, because surely no mortal emotion could ever be used to accurately describe the aberrant presence.</p>
+<p><b>â€Iâ€™m not sure Rook will be able to put much of a scratch on it,â€</b> he says, turning to Val. <b>â€œItâ€™s powerful, but we should definitely try to destroy it or at least seal it away somewhere. Maybe I could hide it in Auryâ€™s keep.â€</b> He points to Marcellusâ€™ armor and weapon, <b>â€œThose &nbsp;are magic too, probably not dangerous but we should still be careful with them. I can identify them back at camp.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -6030,8 +6043,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6368,3 +6381,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=241 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:48 GMT -->
 </html>
+

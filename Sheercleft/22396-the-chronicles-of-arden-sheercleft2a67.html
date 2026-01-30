@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2537,8 +2550,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4833" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark is about to retort to Jex’s line of thinking, not sure what the assassin was implying but ever-ready to defend himself against Jex’s criticism… until the mask slips and the man crumples. Vark bites his tongue and looks down with pity at him until Val speaks once more.</p>
-<p><b>“I… I don’t know. Magical items like this can’t usually be destroyed with brute force but…”</b> his eyes trail down to the weapon in Val’s hands. <b>“Rook is magic too. It could work… I’m just not sure. That’s why I suggested we hide it somewhere. Once we’re back in Sheercleft I could take it to Aury’s study, and then once we free Aury I’m sure he’d know how best to deal with it. I think that’d be the safest option but… if you guys are intent on destroying it now I guess it’s… worth a try?”</b> Vark’s voice wavers as he says this, imagining a hundred ways that smashing a demon’s prison into an eldritch horror’s sending stone could go wrong.</p>
+                                <p>Vark is about to retort to Jexâ€™s line of thinking, not sure what the assassin was implying but ever-ready to defend himself against Jexâ€™s criticismâ€¦ until the mask slips and the man crumples. Vark bites his tongue and looks down with pity at him until Val speaks once more.</p>
+<p><b>â€œIâ€¦ I donâ€™t know. Magical items like this canâ€™t usually be destroyed with brute force butâ€¦â€</b> his eyes trail down to the weapon in Valâ€™s hands. <b>â€œRook is magic too. It could workâ€¦ Iâ€™m just not sure. Thatâ€™s why I suggested we hide it somewhere. Once weâ€™re back in Sheercleft I could take it to Auryâ€™s study, and then once we free Aury Iâ€™m sure heâ€™d know how best to deal with it. I think thatâ€™d be the safest option butâ€¦ if you guys are intent on destroying it now I guess itâ€™sâ€¦ worth a try?â€</b> Varkâ€™s voice wavers as he says this, imagining a hundred ways that smashing a demonâ€™s prison into an eldritch horrorâ€™s sending stone could go wrong.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3076,9 +3089,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4836" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark flinches from the paladin’s outburst.</p>
-<p><b>“I DON’T want to study it Thurston! I… I don’t even want to touch it again… I just think it’s safer to wait, I don’t want either of you to get hurt by it if your hammers are unable to smash it. We’ve seen what it’s capable of.”</b> He breathes, releasing the tension that’s grown in his body as the conversation has turned.&nbsp;</p>
-<p><b>“And… yes, now that Sheercleft is safe I would like everyone’s help in freeing Aureaonus. He’s trapped in a prison of elemental air and to free him I need something called the Sigil of Earth. It <i>was</i> in Sheercleft but somehow a group called the 99 Hundred took it and brought it to Sarameia. Aury is our best bet for dealing with this thing,”</b> he jabs his spear to indicate the black stone, <b>“And for dealing with Matthew.”</b></p>
+                                <p>Vark flinches from the paladinâ€™s outburst.</p>
+<p><b>â€œI DONâ€™T want to study it Thurston! Iâ€¦ I donâ€™t even want to touch it againâ€¦ I just think itâ€™s safer to wait, I donâ€™t want either of you to get hurt by it if your hammers are unable to smash it. Weâ€™ve seen what itâ€™s capable of.â€</b> He breathes, releasing the tension thatâ€™s grown in his body as the conversation has turned.&nbsp;</p>
+<p><b>â€œAndâ€¦ yes, now that Sheercleft is safe I would like everyoneâ€™s help in freeing Aureaonus. Heâ€™s trapped in a prison of elemental air and to free him I need something called the Sigil of Earth. It <i>was</i> in Sheercleft but somehow a group called the 99 Hundred took it and brought it to Sarameia. Aury is our best bet for dealing with this thing,â€</b> he jabs his spear to indicate the black stone, <b>â€œAnd for dealing with Matthew.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3258,7 +3271,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4837" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Aiden grabs the Norscan by the shoulders.&nbsp;<strong>"Your blood-fire runs hot,&nbsp;bróðir,"&nbsp;</strong>he says.&nbsp;<strong>"Peace. The battle is done. We will not study him. We&nbsp;<em>will</em> destroy it. When it is safe to do so. Vark is right...attempting this here, in the field of battle, would be foolish. We do not understand what we are dealing with. And we cannot simply leave it. I would rather it stay with us than fall into the hands of someone else."&nbsp;</strong>Lightning sparks in Aiden's eyes.&nbsp;<strong>"I will not let whatever it is harm any of us. I swear it by the blood of my father."</strong></p>
+                                <p>Aiden grabs the Norscan by the shoulders.&nbsp;<strong>"Your blood-fire runs hot,&nbsp;brÃ³Ã°ir,"&nbsp;</strong>he says.&nbsp;<strong>"Peace. The battle is done. We will not study him. We&nbsp;<em>will</em> destroy it. When it is safe to do so. Vark is right...attempting this here, in the field of battle, would be foolish. We do not understand what we are dealing with. And we cannot simply leave it. I would rather it stay with us than fall into the hands of someone else."&nbsp;</strong>Lightning sparks in Aiden's eyes.&nbsp;<strong>"I will not let whatever it is harm any of us. I swear it by the blood of my father."</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3437,7 +3450,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4838" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Thurston grabs Aiden's forearm and takes a deep breath. As the cleric can feel how the tension finally starts to leave his shoulders he&nbsp; nods in acknowledgement and respet.&nbsp;</p>
-<p><strong><span style="color: rgba(0, 0, 255, 1)">"You speak with wisdom&nbsp;bróðir. You two do"</span>&nbsp;</strong>he says looking at Vark too<span style="color: rgba(0, 0, 255, 1)"><strong> " Frogive me. You know sometimes I act before I think. Let's regroup and take care of our wounded, and let the victoriuos drink and rejoyce. We should send word to Sheercleft to let them know. And tomorrow Vark, we could start planning how to free your mentor, not only because he can help us, but because it is important to you."</strong></span> he says grabbing now the young half-orc by the shoulder. <strong><span style="color: rgba(0, 0, 255, 1)">"Archanost."</span></strong> he says looking to all of them now <strong><span style="color: rgba(0, 0, 255, 1)">" We have fought braverly today, The Aesir must be pleased. I am honored to be one of you and thank Thor and the AllFather to sent me this way. I cannot think of better company to go to battle... and to celebrate later "</span></strong> he says with a smirk looking at Val now.<strong><span style="color: rgba(0, 0, 255, 1)"> "Let's go, our men awaits. I think they deserve some words from our Lord..."</span></strong></p>
+<p><strong><span style="color: rgba(0, 0, 255, 1)">"You speak with wisdom&nbsp;brÃ³Ã°ir. You two do"</span>&nbsp;</strong>he says looking at Vark too<span style="color: rgba(0, 0, 255, 1)"><strong> " Frogive me. You know sometimes I act before I think. Let's regroup and take care of our wounded, and let the victoriuos drink and rejoyce. We should send word to Sheercleft to let them know. And tomorrow Vark, we could start planning how to free your mentor, not only because he can help us, but because it is important to you."</strong></span> he says grabbing now the young half-orc by the shoulder. <strong><span style="color: rgba(0, 0, 255, 1)">"Archanost."</span></strong> he says looking to all of them now <strong><span style="color: rgba(0, 0, 255, 1)">" We have fought braverly today, The Aesir must be pleased. I am honored to be one of you and thank Thor and the AllFather to sent me this way. I cannot think of better company to go to battle... and to celebrate later "</span></strong> he says with a smirk looking at Val now.<strong><span style="color: rgba(0, 0, 255, 1)"> "Let's go, our men awaits. I think they deserve some words from our Lord..."</span></strong></p>
 
                                 
                             </div>
@@ -3617,7 +3630,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4839" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Aiden's vision goes black as he picks up the stone. An unending starfield stretches out across the void in front of him, spiraling on and on into eternity. A voice reaches out of the inky blackness to caress Aiden's mind.</p>
-<p>&nbsp;<strong>"Yᴏᴜ ᴀʀᴇ ɴo-"</strong></p>
+<p>&nbsp;<strong>"Yá´á´œ á´€Ê€á´‡ É´o-"</strong></p>
 <p>A resounding thunderclap and a flash of lightning cut the voice off as Aiden's own will and Thor's divine protection wrench Aiden back to the here and now. Gingerly, Aiden places the stone into his pack.&nbsp;&nbsp;</p>
                                 
                             </div>
@@ -3974,7 +3987,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4841" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>Vark shakes his head.</p>
-<p><b>”No, I only know what I found in the codex’s library, so it was pretty old. I know they worshipped Talona though. I could ask Matthew but…”</b> he gulps, realizing he hasn’t fully explained the quest his patron has tasked him with. <b>“He wants the Sigil of Fire, he needs it to release Arawn from a prison beneath the Sarameian imperial palace. He asked me to steal it from the silver dragon that currently protects it. So… I don’t think he’s gonna be too helpful unless we do that. Annnnd… I’m worried he might get upset if he realizes I’m prioritizing the Sigil of Earth instead of what he wants.”</b> he admits. <b>“I guess I could try and tell him we want a storm giant’s help in order to deal with the dragon, might calm him down if he does get upset…”</b></p>
+<p><b>â€No, I only know what I found in the codexâ€™s library, so it was pretty old. I know they worshipped Talona though. I could ask Matthew butâ€¦â€</b> he gulps, realizing he hasnâ€™t fully explained the quest his patron has tasked him with. <b>â€œHe wants the Sigil of Fire, he needs it to release Arawn from a prison beneath the Sarameian imperial palace. He asked me to steal it from the silver dragon that currently protects it. Soâ€¦ I donâ€™t think heâ€™s gonna be too helpful unless we do that. Annnndâ€¦ Iâ€™m worried he might get upset if he realizes Iâ€™m prioritizing the Sigil of Earth instead of what he wants.â€</b> he admits. <b>â€œI guess I could try and tell him we want a storm giantâ€™s help in order to deal with the dragon, might calm him down if he does get upsetâ€¦â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4334,8 +4347,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4843" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Don’t worry I already told him I could never convince you guys to do something like that. If it were up to him I think he’d have me go on my own..”</b> he says, clearly not having ruled that out as an option. It was the very basis of his pact with Didymus after all.</p>
-<p><b>”Either way it’s a distraction from helping Aury. That has to come first.”</b></p>
+                                <p><b>â€œDonâ€™t worry I already told him I could never convince you guys to do something like that. If it were up to him I think heâ€™d have me go on my own..â€</b> he says, clearly not having ruled that out as an option. It was the very basis of his pact with Didymus after all.</p>
+<p><b>â€Either way itâ€™s a distraction from helping Aury. That has to come first.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4870,9 +4883,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4846" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark does his best to smile and nod at Thurston’s reassuring words, wishing he could see things in terms as black and white as the paladin.&nbsp;</p>
+                                <p>Vark does his best to smile and nod at Thurstonâ€™s reassuring words, wishing he could see things in terms as black and white as the paladin.&nbsp;</p>
 <p>Then Mateo stands and&nbsp;confesses what seems to be a personal secret of Jex. Are the two personalities really so distinct?&nbsp;</p>
-<p><b>“He… he wants to break in just for the sake of it?” </b>he asks. <b>“Or… is there something inside that he wants?”</b></p>
+<p><b>â€œHeâ€¦ he wants to break in just for the sake of it?â€ </b>he asks. <b>â€œOrâ€¦ is there something inside that he wants?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5226,10 +5239,10 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4848" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>the continued stream of Jex’s inner thoughts and motivations sets Vark’s jaw hanging open.</p>
-<p><b>”O-oh.”</b> Is all he can manage to say. The complicated relationship he’s had with the half-elf has is suddenly all the more nuanced. In fact, they clearly have more in common than Vark would have ever thought; the man’s haughty self righteousness a manifestation of the same insecurities that cause Vark to doubt himself constantly.&nbsp;</p>
-<p><b>“I’m… I’m glad that we’ve met now, Matteo.”</b> he places a hand on the man’s shoulder and gives a soft smile before gently nudging in the direction of home.</p>
-<p><b>”Let’s go home.”</b></p>
+                                <p>the continued stream of Jexâ€™s inner thoughts and motivations sets Varkâ€™s jaw hanging open.</p>
+<p><b>â€O-oh.â€</b> Is all he can manage to say. The complicated relationship heâ€™s had with the half-elf has is suddenly all the more nuanced. In fact, they clearly have more in common than Vark would have ever thought; the manâ€™s haughty self righteousness a manifestation of the same insecurities that cause Vark to doubt himself constantly.&nbsp;</p>
+<p><b>â€œIâ€™mâ€¦ Iâ€™m glad that weâ€™ve met now, Matteo.â€</b> he places a hand on the manâ€™s shoulder and gives a soft smile before gently nudging in the direction of home.</p>
+<p><b>â€Letâ€™s go home.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5438,7 +5451,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5801,7 +5814,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -6029,8 +6042,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6367,3 +6380,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=242 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:49 GMT -->
 </html>
+

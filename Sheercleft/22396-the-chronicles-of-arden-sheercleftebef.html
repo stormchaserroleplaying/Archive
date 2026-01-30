@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2536,7 +2549,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4977" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Of course,” </b>Vark shakes his hands, earnestly trying to dismiss any concern, <b>“I’m sorry about all that, it’s just… well Matteo wasn’t just gonna let us put the mask on him willingly. But I thought you should have a say… but also Matteo is so different from you, I thought maybe there was a chance he was right and when we gave you back your body you would try and… I don’t know, stab us.”</b> he admits. <b>“I promise it won’t happen again. Unless you do try to stab us.” </b>He adds the last bit with a smile for levity. <b>“And I agree with Aiden. I’m not sure whether it was the mask that made you split or if you splitting broke the mask, but we need to find a way to put you back together. I… really have no idea how to do that. It seems like some sort of restoration magic might be able to fix it but that’s far from my specialty.”</b> he looks to the cleric and the paladin of the party with a shrug. <b>“Do you think Thor could help? I mean… hammers break things but they also put things back together, right?”</b></p>
+                                <p><b>â€œOf course,â€ </b>Vark shakes his hands, earnestly trying to dismiss any concern, <b>â€œIâ€™m sorry about all that, itâ€™s justâ€¦ well Matteo wasnâ€™t just gonna let us put the mask on him willingly. But I thought you should have a sayâ€¦ but also Matteo is so different from you, I thought maybe there was a chance he was right and when we gave you back your body you would try andâ€¦ I donâ€™t know, stab us.â€</b> he admits. <b>â€œI promise it wonâ€™t happen again. Unless you do try to stab us.â€ </b>He adds the last bit with a smile for levity. <b>â€œAnd I agree with Aiden. Iâ€™m not sure whether it was the mask that made you split or if you splitting broke the mask, but we need to find a way to put you back together. Iâ€¦ really have no idea how to do that. It seems like some sort of restoration magic might be able to fix it but thatâ€™s far from my specialty.â€</b> he looks to the cleric and the paladin of the party with a shrug. <b>â€œDo you think Thor could help? I meanâ€¦ hammers break things but they also put things back together, right?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3247,8 +3260,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4981" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark looks utterly flabbergasted by the conversation. Is this how obstinate he comes off when trying to push away the group’s recommendations? No, he’s not quite so melodramatic but still, he does empathize with Jex’s position.</p>
-<p><b>”Jex, wait!”</b> he calls out, stepping forward. <b>“We’re not going&nbsp;to force you to do anything you don’t want to do.”</b> he flashes a glance at Thurston and Aiden. <b>“We have to trust him.” </b>Turning back to Jex he continues, <b>“We just want what’s best for you. If… if putting you back together isn’t what you want, then maybe there’s another way. Maybe we can pull Matteo into another body or something.”</b> he shrugs. <b>“I really don’t know, but if we’ve learned anything during our travels it’s that anything is possible. And I know someone who might know how to help! That’s also a part of why I called everyone here. We’ve been invited to Wydrioth, for a dinner party! I talked to Morben, the Marquise’s son, this morning and asked if he might have a access to a teleportation circle close to Beschadik. That way we can get there and find the Sigil of Earth without having to call Matthew for help or waste a bunch of time traveling. And he said he knows a guy, and he said we can all go and meet him together. I bet either him or his friend will have some idea of how we can help Jex.”</b></p>
+                                <p>Vark looks utterly flabbergasted by the conversation. Is this how obstinate he comes off when trying to push away the groupâ€™s recommendations? No, heâ€™s not quite so melodramatic but still, he does empathize with Jexâ€™s position.</p>
+<p><b>â€Jex, wait!â€</b> he calls out, stepping forward. <b>â€œWeâ€™re not going&nbsp;to force you to do anything you donâ€™t want to do.â€</b> he flashes a glance at Thurston and Aiden. <b>â€œWe have to trust him.â€ </b>Turning back to Jex he continues, <b>â€œWe just want whatâ€™s best for you. Ifâ€¦ if putting you back together isnâ€™t what you want, then maybe thereâ€™s another way. Maybe we can pull Matteo into another body or something.â€</b> he shrugs. <b>â€œI really donâ€™t know, but if weâ€™ve learned anything during our travels itâ€™s that anything is possible. And I know someone who might know how to help! Thatâ€™s also a part of why I called everyone here. Weâ€™ve been invited to Wydrioth, for a dinner party! I talked to Morben, the Marquiseâ€™s son, this morning and asked if he might have a access to a teleportation circle close to Beschadik. That way we can get there and find the Sigil of Earth without having to call Matthew for help or waste a bunch of time traveling. And he said he knows a guy, and he said we can all go and meet him together. I bet either him or his friend will have some idea of how we can help Jex.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4888,7 +4901,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5392,9 +5405,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4993" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Uhm, I’m not sure yet. Morben said he would let me know a time after he talks to his friend.”&nbsp;</b></p>
-<p>Vark looks in thought for a moment before he glances down at himself, pulling at his clothes to inspect them. His rough hewn wool tunic and trousers are functional and warm but lacking in any sort of aesthetic taste. His father’s cloak is a fine piece of tailoring, but other than that and his armor Vark realizes that he really doesn’t have much else in terms of clothing, certainly nothing to wear to a fancy dinner with elven nobility.</p>
-<p><b>”I might need to get something to wear…”</b></p>
+                                <p><b>â€œUhm, Iâ€™m not sure yet. Morben said he would let me know a time after he talks to his friend.â€&nbsp;</b></p>
+<p>Vark looks in thought for a moment before he glances down at himself, pulling at his clothes to inspect them. His rough hewn wool tunic and trousers are functional and warm but lacking in any sort of aesthetic taste. His fatherâ€™s cloak is a fine piece of tailoring, but other than that and his armor Vark realizes that he really doesnâ€™t have much else in terms of clothing, certainly nothing to wear to a fancy dinner with elven nobility.</p>
+<p><b>â€I might need to get something to wearâ€¦â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5754,7 +5767,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4995" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“To… to dinner… with Morben… the Marquise’s son.”</b> he responds, somehow still surprised any time the Norscan misses important information. <b>“We… we should all dress our best I think. We want to make a good impression, and we’re representing Sheercleft,”</b> he says this with a pointed glance to Bründir. <b>“We can’t show up in our dirty armor, right?”</b> he throws this question to Seid, clearly the most experienced with such matters.</p>
+                                <p><b>â€œToâ€¦ to dinnerâ€¦ with Morbenâ€¦ the Marquiseâ€™s son.â€</b> he responds, somehow still surprised any time the Norscan misses important information. <b>â€œWeâ€¦ we should all dress our best I think. We want to make a good impression, and weâ€™re representing Sheercleft,â€</b> he says this with a pointed glance to BrÃ¼ndir. <b>â€œWe canâ€™t show up in our dirty armor, right?â€</b> he throws this question to Seid, clearly the most experienced with such matters.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -6011,8 +6024,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6349,3 +6362,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=249 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:51 GMT -->
 </html>
+

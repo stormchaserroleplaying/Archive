@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2358,8 +2371,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5176" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Seven…”</b> Vark echoes under his breath. He is surely in awe of the impressive architecture but there is also something else that catches him, cogs working in his brain. <i>What was it about dwarves and seven?</i> By the time they reach the waiting area, Vark already has his notebook in hand and is pouring over its pages.</p>
-<p><b><i>”Across a field of hardened lava, Human knights charge from ships to face a shield wall of Dwarven infantry.”</i> </b>he reads aloud.<b> “That’s what Seid wrote down from one of my first visions from&nbsp;the codex. I also saw a seven pointed star alongside the scene. There’s seven gates here, and there are seven dwarven kings, right Bründir? Do you know why the dwarves are obsessed with the number seven?”</b></p>
+                                <p><b>â€œSevenâ€¦â€</b> Vark echoes under his breath. He is surely in awe of the impressive architecture but there is also something else that catches him, cogs working in his brain. <i>What was it about dwarves and seven?</i> By the time they reach the waiting area, Vark already has his notebook in hand and is pouring over its pages.</p>
+<p><b><i>â€Across a field of hardened lava, Human knights charge from ships to face a shield wall of Dwarven infantry.â€</i> </b>he reads aloud.<b> â€œThatâ€™s what Seid wrote down from one of my first visions from&nbsp;the codex. I also saw a seven pointed star alongside the scene. Thereâ€™s seven gates here, and there are seven dwarven kings, right BrÃ¼ndir? Do you know why the dwarves are obsessed with the number seven?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2539,7 +2552,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5177" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir shrugs. Years of old stories came back, and they all featured the number prominently, but never as a unified symbol. "Dunno....it's always been there, but nobody really says why. It's like how some'o yer people knock a table fer luck. I'm sure it meant somethin' sometime, but now it's just habit. Funny ye mention it, though, 'cause I do remember a lot of sevens, now."</p>
+                                <p>BrÃ¼ndir shrugs. Years of old stories came back, and they all featured the number prominently, but never as a unified symbol. "Dunno....it's always been there, but nobody really says why. It's like how some'o yer people knock a table fer luck. I'm sure it meant somethin' sometime, but now it's just habit. Funny ye mention it, though, 'cause I do remember a lot of sevens, now."</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2567,7 +2580,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -2722,7 +2735,7 @@ line-height: 1.5rem; }
 <p>It's not long before&nbsp;a runner returns, accompanied by an older dwarf clad in heavy crimson robes edged with gold thread. His beard is neatly forked and adorned with silver clasps, and a signet ring heavy with gems weighs down his right hand. He bows formally.</p>
 <p><strong>"King Ungrim&nbsp;bids you welcome,"</strong>&nbsp;he announces in a voice like gravel stirred by wind. <strong>"You are to be escorted to the Hearth of Ancestry, where guests of standing are received. There, you will take bread and salt in the king's name, and speak of your purpose in these halls."</strong></p>
 <p>At a subtle gesture, a squad of guards falls in around the Acharnost. Not hostile, but watchful as the company is led deeper into <em>Karaz Kadrin</em>.</p>
-<p>They pass through more arched passages and vaulted halls so massive and intricate that they almost seem impossible, hewn from living rock by the labour of generations. Grand statues line the walls, many of ancient kings, heroes and even gods of the forge and mountain. Every surface bears carvings of knotwork, scenes of battles and the record of the hold’s long and storied past.</p>
+<p>They pass through more arched passages and vaulted halls so massive and intricate that they almost seem impossible, hewn from living rock by the labour of generations. Grand statues line the walls, many of ancient kings, heroes and even gods of the forge and mountain. Every surface bears carvings of knotwork, scenes of battles and the record of the holdâ€™s long and storied past.</p>
 <p>As the Acharnost walk, the smell of forges, molten metal and mountain herbs thickens, along with the warm tang of hearth fires. Distant laughter and the clink of tankards suggest life and bustle in other wings of the hold.</p>
 <p>Finally, they approach the Hearth of Ancestry, which forms a circle dominated by a great central hearth around which massive iron cauldrons simmer and roast meats sizzle on spits. The walls gleam with mosaics of precious stones, telling the story of <em>Karaz Kadrin</em>'s founding and triumphs.</p>
                                 
@@ -2751,7 +2764,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -2902,8 +2915,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5179" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark can’t help but lick his lips at the scent of roasting meat and ale. His manners prevent him from just running over and grabbing a plate, best wait for Bründir to take the lead. In the meantime the murals which decorate the Hearth catch his eye, particularly one that glitters with ruby red garnets and bloodstones. Absentmindedly he touches the spot where the runestone lies hidden in his pocket. Inspecting the mural closer he gasps as he realizes the figures in the mural appear to be orcish.</p>
-<p><b>”Uhm, h-hi, excuse me,”</b> he says to a pair&nbsp;of nearby dwarves enjoying the food and drink. <b>“Could you tell me what this mural depicts?”</b></p>
+                                <p>Vark canâ€™t help but lick his lips at the scent of roasting meat and ale. His manners prevent him from just running over and grabbing a plate, best wait for BrÃ¼ndir to take the lead. In the meantime the murals which decorate the Hearth catch his eye, particularly one that glitters with ruby red garnets and bloodstones. Absentmindedly he touches the spot where the runestone lies hidden in his pocket. Inspecting the mural closer he gasps as he realizes the figures in the mural appear to be orcish.</p>
+<p><b>â€Uhm, h-hi, excuse me,â€</b> he says to a pair&nbsp;of nearby dwarves enjoying the food and drink. <b>â€œCould you tell me what this mural depicts?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3084,10 +3097,10 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-5180" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>One of the dwarves in the hall is a broad-shouldered elder with an oaken tankard in one hand and grease on his braided moustache. He raises a bushy brow as he looks at Vark.&nbsp;His younger, sharper-eyed companion&nbsp;turns with a squint towards the mosaic in question.</p>
-<p><strong>"Hmph. That’d be the <em>Red Tithe</em>,"</strong> the older dwarf grunts, wiping his hand on his beard&nbsp;and gesturing at the panel glittering with garnets, bloodstones and deep iron inlays. The scene depicts a gruesome tableau of orcish warbands storming the pass.&nbsp;However, strangely, the orcs&nbsp;are later shown kneeling, their arms laid down before the gates. In the foreground, a dwarven king&nbsp;accepts an iron box from the largest orc, who is shown with bound hands and a broken tusk. The box is inlaid with a single red gem. Next to it is another scene of dwarves counting the heads of dead orc chieftains stacked in macabre tribute.</p>
-<p><strong>"After the Grunhold fell, the orcs came not with war, but penance. Their warlord died tryin’ to take this pass, and the rest… well, they brought us heads. Blood for blood. Price o’ peace, you could say. They call it a tithe. We called it a warning."</strong></p>
-<p><strong>"Some say the box held the warlord’s heart. Still beating,"</strong> the younger dwarf adds with a wink, but there’s a chill in the jest.</p>
-<p><strong>“It’s a tale of pride, lad, and power,"</strong> the elder dwarf reminds his companion with a frown of reproach. <strong>"Karaz Kadrin didn’t fall. We held&nbsp;and they knew better than to try again.”&nbsp;</strong>He leans back, eyeing Vark thoughtfully. <strong>"Why d’you ask? You recognise somethin’?"</strong></p>
+<p><strong>"Hmph. Thatâ€™d be the <em>Red Tithe</em>,"</strong> the older dwarf grunts, wiping his hand on his beard&nbsp;and gesturing at the panel glittering with garnets, bloodstones and deep iron inlays. The scene depicts a gruesome tableau of orcish warbands storming the pass.&nbsp;However, strangely, the orcs&nbsp;are later shown kneeling, their arms laid down before the gates. In the foreground, a dwarven king&nbsp;accepts an iron box from the largest orc, who is shown with bound hands and a broken tusk. The box is inlaid with a single red gem. Next to it is another scene of dwarves counting the heads of dead orc chieftains stacked in macabre tribute.</p>
+<p><strong>"After the Grunhold fell, the orcs came not with war, but penance. Their warlord died tryinâ€™ to take this pass, and the restâ€¦ well, they brought us heads. Blood for blood. Price oâ€™ peace, you could say. They call it a tithe. We called it a warning."</strong></p>
+<p><strong>"Some say the box held the warlordâ€™s heart. Still beating,"</strong> the younger dwarf adds with a wink, but thereâ€™s a chill in the jest.</p>
+<p><strong>â€œItâ€™s a tale of pride, lad, and power,"</strong> the elder dwarf reminds his companion with a frown of reproach. <strong>"Karaz Kadrin didnâ€™t fall. We held&nbsp;and they knew better than to try again.â€&nbsp;</strong>He leans back, eyeing Vark thoughtfully. <strong>"Why dâ€™you ask? You recognise somethinâ€™?"</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3114,7 +3127,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3265,8 +3278,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5181" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Oh, well, yes actually. It’s been so long since I’ve heard the tale I didn’t recognize it at first.”</b> Vark goes quiet for a moment, eyes still fixed on the beautiful mosaic. He decides against sharing his people’s version of the story, not wanting to ruffle any beards in this place where he is a guest.</p>
-<p><b>”The stuff about the heart is true. It was sealed by the tribe’s bone priests. I’d be surprised if it wasn’t still beating in there right now.”</b> with this he flashes a toothy grin and returns the younger dwarf’s wink.</p>
+                                <p><b>â€œOh, well, yes actually. Itâ€™s been so long since Iâ€™ve heard the tale I didnâ€™t recognize it at first.â€</b> Vark goes quiet for a moment, eyes still fixed on the beautiful mosaic. He decides against sharing his peopleâ€™s version of the story, not wanting to ruffle any beards in this place where he is a guest.</p>
+<p><b>â€The stuff about the heart is true. It was sealed by the tribeâ€™s bone priests. Iâ€™d be surprised if it wasnâ€™t still beating in there right now.â€</b> with this he flashes a toothy grin and returns the younger dwarfâ€™s wink.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -3448,7 +3461,7 @@ line-height: 1.5rem; }
                             <div id="forum-post-body-5182" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>A hush settles over the Hearth of Ancestry as great stone doors at the far end of the hall rumble open on hidden hinges. The low murmur of conversation fades, tankards are set down and all eyes turn toward the grand archway. A deep horn note reverberates through the vaulted chamber, low and resonant like the heartbeat of the mountain.</p>
 <p>Torchlight glints off of polished metal&nbsp;as King Ungrim 'Ironfist' Drakebeard, the <em>drengi</em> king of <em>Karaz Kadrin</em> strides into the hall. He is not a tall figure, but he walks with the weight of generations in his step. His beard is a rich braid of copper and silver, bound with golden clasps bearing the sigils of his ancestors. Upon his brow rests a heavy coronet of&nbsp;iron and gold, inset with a single brilliant diamond, its facets glittering like starlight caught in stone. A long crimson cloak trimmed with snow-ermine billows behind him as he moves, the only softness in his otherwise unyielding silhouette. At his side hangs&nbsp;a runed axe, its haft wrapped in aged leather and its head shaped like a cleft mountain.</p>
-<p>The king’s expression is solemn, but not joyless.&nbsp;His sharp eyes scan the assembled company with calm certainty. As he reaches the centre of the Hearth, beneath the massive stone hearth fire, he raises a hand. A chorus of dwarves, positioned along the mosaic walls, strike their&nbsp;weapons to their shields in perfect rhythm&nbsp;in an ancient and thunderous salute. When the sound fades, King&nbsp;Ungrim speaks, his voice like gravel and thunder.</p>
+<p>The kingâ€™s expression is solemn, but not joyless.&nbsp;His sharp eyes scan the assembled company with calm certainty. As he reaches the centre of the Hearth, beneath the massive stone hearth fire, he raises a hand. A chorus of dwarves, positioned along the mosaic walls, strike their&nbsp;weapons to their shields in perfect rhythm&nbsp;in an ancient and thunderous salute. When the sound fades, King&nbsp;Ungrim speaks, his voice like gravel and thunder.</p>
 <p class=""><strong>"Welcome, kin and honoured guests. My name is&nbsp;Ungrim, son of Durgan, son of Drogun, lord of House Drakebeard and king of <em>Karaz Kadrin</em>. Know that, in my hall, oaths are binding, words are weighed like gold and guests who sit by my hearth are under my protection. Now,&nbsp;speak your names and purpose, that this hall&nbsp;might know the truth of you."</strong></p>
 <p class="">&nbsp;</p>
                                 
@@ -3477,7 +3490,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3628,8 +3641,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5183" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir felt like a dam fit to burst open like the entry gate. Dozens, maybe hundreds, of questions demanded answers. Some amounted to trivial blather, but others carried actual weight. Up to now, there were few places it felt safe to discuss the true nature of the Acharnost's mission. The king of Karaz Kadrin was surely one such audience, but now here, not with so many uninvolved ears.</p>
-<p>Bründir stepped forward boldly, but his legs felt heavier with each approaching step. Careful to stay several paces away, Bründir crossed his arm onto his chest and bowed low, "King Ungrim, great lord, I am Bründir Halfshield, founder of m'clan-name, Lord o' Sheercleft by will of its people." He caught a few stray syllables of lazy country accent. It wouldn't do to sound so out of place, but it felt worse to fumble with correcting himself. "We are th' Acharnost, but I'll leave introductions of my friends fer to them. Simply said, we're all looking fer knowledge of histories and possibly some aid of yer great city."</p>
+                                <p>BrÃ¼ndir felt like a dam fit to burst open like the entry gate. Dozens, maybe hundreds, of questions demanded answers. Some amounted to trivial blather, but others carried actual weight. Up to now, there were few places it felt safe to discuss the true nature of the Acharnost's mission. The king of Karaz Kadrin was surely one such audience, but now here, not with so many uninvolved ears.</p>
+<p>BrÃ¼ndir stepped forward boldly, but his legs felt heavier with each approaching step. Careful to stay several paces away, BrÃ¼ndir crossed his arm onto his chest and bowed low, "King Ungrim, great lord, I am BrÃ¼ndir Halfshield, founder of m'clan-name, Lord o' Sheercleft by will of its people." He caught a few stray syllables of lazy country accent. It wouldn't do to sound so out of place, but it felt worse to fumble with correcting himself. "We are th' Acharnost, but I'll leave introductions of my friends fer to them. Simply said, we're all looking fer knowledge of histories and possibly some aid of yer great city."</p>
 <p>Asking favors during introductions. Very bold, he thought...maybe too bold. The weight of his armour threatened to draw his shoulders down if hindsight embrassment didn't do it first. In defiance, he pulled himself up to show off his ancient arms, "A great request when we've barely met, I understand. But not one made lightly."</p>
                                 
                             </div>
@@ -3662,7 +3675,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -3813,7 +3826,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5184" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>A whisper ripples amongst the gathered courtiers in reaction to Bründir's brazen display of his arsenal of relics and artifacts.</p>
+                                <p>A whisper ripples amongst the gathered courtiers in reaction to BrÃ¼ndir's brazen display of his arsenal of relics and artifacts.</p>
 <p><strong>"Break bread, taste salt and drink in good faith,"</strong> the king tells him in acknowledgement, gesturing to a long stone table laid with bread, salt and small silver cups filled with a strong, bitter spirit. Ungrim's eyes then fall on the other members of the Acharnost, waiting for each of them to also introduce themselves.</p>
 <p>&nbsp;</p>
                                 
@@ -3842,7 +3855,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4346,7 +4359,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5187" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark steps up as well, joining his companions in bowing before the king. <b>“Vark Galestone, your majesty. It’s an honor to be a guest in your great city.”</b></p>
+                                <p>Vark steps up as well, joining his companions in bowing before the king. <b>â€œVark Galestone, your majesty. Itâ€™s an honor to be a guest in your great city.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4735,7 +4748,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4886,7 +4899,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5190" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“Uhm w-well I can speak some to the knowledge we seek, your majesty. On our adventures we have come across bits of Arden’s ancient history and we wish to understand it better. A lot of what we’ve found has been… limited, in scope and in detail. We believe that your records are probably the best well-kept of anyone’s,”</b> he says, hoping to endear the king with compliments. <b>“I would love to be allowed to access your libraries, and maybe a guided tour around the city of any historical murals or monuments like these great works,”</b> he gestures to the murals and mosaics which decorate the walls of the hall. <b>“As much as I love pouring over tomes, it’s nice when the history is right in your face like this.”</b> he adds with a chuckle.</p>
+                                <p><b>â€œUhm w-well I can speak some to the knowledge we seek, your majesty. On our adventures we have come across bits of Ardenâ€™s ancient history and we wish to understand it better. A lot of what weâ€™ve found has beenâ€¦ limited, in scope and in detail. We believe that your records are probably the best well-kept of anyoneâ€™s,â€</b> he says, hoping to endear the king with compliments. <b>â€œI would love to be allowed to access your libraries, and maybe a guided tour around the city of any historical murals or monuments like these great works,â€</b> he gestures to the murals and mosaics which decorate the walls of the hall. <b>â€œAs much as I love pouring over tomes, itâ€™s nice when the history is right in your face like this.â€</b> he adds with a chuckle.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5066,9 +5079,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5191" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir gave a low bow to collect his next request, "We're traveling t'far off lands, an' we don'ave time t'waste with walkin'. We heard Karaz Kadrin has a teleportation circle. With yer blessin', we'd like t'use it. More'n that, I'm sorry but it'd be better if we had a more...private audience."</p>
-<p>The dwarf looked about the open space at the various glances and stares. He tried to remain cordial instead of suspicious as his request might sound. "As my friend 'ere said, we've also got other matters we thought best fixed 'ere. Fer myself, I need t'find a clan or two in yer records. I've got no name t'give, but stories an' more like pieces of a puzzle." Bründir rests a hand on the hilt of Dumdrengi.</p>
-<p>By the time light caught its blade, he realized his error and felt a dozen other blades and spears leveled towards him. He froze in place, slowly removing his fingers from their grip. His next words were slow and measured, "That was my fault. I do apologize. I got ahead of myself. If you please," Bründir points to his hilt, offering it to any of the royal guard that would take it from the scabbard. "It's called 'Dumdrengi'. It belonged to King Erik Spangelhelm. I assume you know the name? It was my father's, least that's what my ma always said."</p>
+                                <p>BrÃ¼ndir gave a low bow to collect his next request, "We're traveling t'far off lands, an' we don'ave time t'waste with walkin'. We heard Karaz Kadrin has a teleportation circle. With yer blessin', we'd like t'use it. More'n that, I'm sorry but it'd be better if we had a more...private audience."</p>
+<p>The dwarf looked about the open space at the various glances and stares. He tried to remain cordial instead of suspicious as his request might sound. "As my friend 'ere said, we've also got other matters we thought best fixed 'ere. Fer myself, I need t'find a clan or two in yer records. I've got no name t'give, but stories an' more like pieces of a puzzle." BrÃ¼ndir rests a hand on the hilt of Dumdrengi.</p>
+<p>By the time light caught its blade, he realized his error and felt a dozen other blades and spears leveled towards him. He froze in place, slowly removing his fingers from their grip. His next words were slow and measured, "That was my fault. I do apologize. I got ahead of myself. If you please," BrÃ¼ndir points to his hilt, offering it to any of the royal guard that would take it from the scabbard. "It's called 'Dumdrengi'. It belonged to King Erik Spangelhelm. I assume you know the name? It was my father's, least that's what my ma always said."</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5096,7 +5109,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5247,12 +5260,12 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5193" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir's words echo through the Hearth of Ancestry and King Ungrim eyes narrows his eyes. The chamber falls into a tense silence, flickering torchlight casting long shadows across the mosaic-covered walls. The assembled dwarves, their expressions a mix of curiosity and caution, await their king's response.</p>
-<p>Ungrim steps forward, his heavy boots resonating against the stone floor. He halts before Bründir with an&nbsp;intense gaze, weighing the man before him, before drawing the offered blade. It slides from its scabbard with a tuneful ring and&nbsp;the king holds the blade&nbsp;up so that it&nbsp;shines bright against the flames of the hearth.</p>
-<p><strong>"<em>Dumdrengi</em>,"</strong> he murmurs, the name of the blade rolling off of his tongue with a mix of reverence and scepticism. <strong>"A weapon of legend, thought lost to time,"</strong> his eyes bore into Bründir's,&nbsp;<strong>"and you claim it as your father's?"</strong></p>
+                                <p>BrÃ¼ndir's words echo through the Hearth of Ancestry and King Ungrim eyes narrows his eyes. The chamber falls into a tense silence, flickering torchlight casting long shadows across the mosaic-covered walls. The assembled dwarves, their expressions a mix of curiosity and caution, await their king's response.</p>
+<p>Ungrim steps forward, his heavy boots resonating against the stone floor. He halts before BrÃ¼ndir with an&nbsp;intense gaze, weighing the man before him, before drawing the offered blade. It slides from its scabbard with a tuneful ring and&nbsp;the king holds the blade&nbsp;up so that it&nbsp;shines bright against the flames of the hearth.</p>
+<p><strong>"<em>Dumdrengi</em>,"</strong> he murmurs, the name of the blade rolling off of his tongue with a mix of reverence and scepticism. <strong>"A weapon of legend, thought lost to time,"</strong> his eyes bore into BrÃ¼ndir's,&nbsp;<strong>"and you claim it as your father's?"</strong></p>
 <p>Ungrim&nbsp;turns to his advisers, exchanging brief glances and murmured words. After a moment, he addresses the hall.</p>
 <p><strong>"The return of <em>Dumdrengi</em> is a matter of great import,"</strong>&nbsp;the king&nbsp;declares, <strong>"but so too is the allegiance of Sheercleft. Before we can offer aid or access to our archives, there must be an understanding."</strong></p>
-<p>He turns back to Bründir, fixing the would-be lord with a penetrating stare.</p>
+<p>He turns back to BrÃ¼ndir, fixing the would-be lord with a penetrating stare.</p>
 <p><strong>"Swear fealty to Karaz Kadrin.&nbsp;Pledge Sheercleft's loyalty and we shall provide the assistance that you seek."</strong></p>
 <p>The hall remains silent, the weight of the king's words hanging heavily in the air.</p>
                                 
@@ -5281,7 +5294,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5432,8 +5445,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5194" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir was genuinely taken aback by the demand. He knew of alliances and allegiances, but had never known them to come on so suddenly. He met the king's gaze -&nbsp;show them you've got a spine, don't fold over - then turned to scan the gathered advisors. He'd heard of these types before. Wise in their own rights, but they fancy themselves movers in political games when they are pawns for those above. They would give council for their own interests. Who was this upstart from a mining territory compared to one, let alone several, of them?</p>
-<p>The dwarf took a deep breath and sat in his own mind for several moments. This decision deserved the time for consideration, but the king pushed for reactive thinking.&nbsp;<strong>"You give a great honor, your highness, granting such a privilege so quickly. If I stood alone this day, I'd jump - or more like fall - at th' chance. But I'm not alone; I'm just one of the Acharnost, an' one of a hundreds from Sheercleft. I can't speak without their voices. As y'know, Sheercleft has three other neighbors, all o'which we've had good relations with fer years, an' one o'which claimed it till recently. I don' mean offense t'yer kingdom when I say I worry swearing Sheercleft t'ye would...sour our relations with th' others."</strong> With his tongue loosened and apprehensions voiced, Bründir turns his voice to a broader tone to be heard by everyone present, involved or bystander, <strong>"Sheercleft is no kingdom. We're no great house or stronghold. We're miners, mountainfolk, traders. To you, King Ungrim, we're prob'ly an inconvenience t'be made useful."</strong> The dwarf couldn't help but smile a bit at the thought,<strong> "I'd like t' task, on behalf Sheercleft's people, that I swear t'ye all loyalty an' service, but that Sheercleft be allowed trade as it sees fit. I'd like such talks of particulars, if you please, t'be done&nbsp;in more..."</strong>&nbsp;Bründir glanced around the tables and great hearth, <strong>"Discreet company. I swear this on that sword in yer hands, my bloodline, an' my own new clan's name: Sheercleft will fly banners of Karaz Kadrin, and offer former tribute now to Karaz Kadrin."</strong></p>
+                                <p>BrÃ¼ndir was genuinely taken aback by the demand. He knew of alliances and allegiances, but had never known them to come on so suddenly. He met the king's gaze -&nbsp;show them you've got a spine, don't fold over - then turned to scan the gathered advisors. He'd heard of these types before. Wise in their own rights, but they fancy themselves movers in political games when they are pawns for those above. They would give council for their own interests. Who was this upstart from a mining territory compared to one, let alone several, of them?</p>
+<p>The dwarf took a deep breath and sat in his own mind for several moments. This decision deserved the time for consideration, but the king pushed for reactive thinking.&nbsp;<strong>"You give a great honor, your highness, granting such a privilege so quickly. If I stood alone this day, I'd jump - or more like fall - at th' chance. But I'm not alone; I'm just one of the Acharnost, an' one of a hundreds from Sheercleft. I can't speak without their voices. As y'know, Sheercleft has three other neighbors, all o'which we've had good relations with fer years, an' one o'which claimed it till recently. I don' mean offense t'yer kingdom when I say I worry swearing Sheercleft t'ye would...sour our relations with th' others."</strong> With his tongue loosened and apprehensions voiced, BrÃ¼ndir turns his voice to a broader tone to be heard by everyone present, involved or bystander, <strong>"Sheercleft is no kingdom. We're no great house or stronghold. We're miners, mountainfolk, traders. To you, King Ungrim, we're prob'ly an inconvenience t'be made useful."</strong> The dwarf couldn't help but smile a bit at the thought,<strong> "I'd like t' task, on behalf Sheercleft's people, that I swear t'ye all loyalty an' service, but that Sheercleft be allowed trade as it sees fit. I'd like such talks of particulars, if you please, t'be done&nbsp;in more..."</strong>&nbsp;BrÃ¼ndir glanced around the tables and great hearth, <strong>"Discreet company. I swear this on that sword in yer hands, my bloodline, an' my own new clan's name: Sheercleft will fly banners of Karaz Kadrin, and offer former tribute now to Karaz Kadrin."</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5465,7 +5478,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -5617,15 +5630,15 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-5195" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p>A murmur ripples through the hall.</p>
-<p>Some of the courtiers bristle, while others nod subtly behind their beards, hiding amusement or respect. Bründir's words ring with the weight of hard-earned dignity. His plain, heartfelt speech is unpolished, but honest. Though it might clash with the formalities of courtly dwarven diplomacy, it rings true in the ears of those not yet deaf to sincerity.</p>
-<p>The king remains silent through it all, watching Bründir with the cold patience of stone. Finally, Ungrim turns his attention back to <em>Dumdrengi</em>, inspecting the blade in the firelight. He turns the sword&nbsp;in his hands and its edge gleams, runes flickering faintly in the heat-haze.</p>
-<p>When Bründir first addressed the king, he named himself founder of the Halfshield clan. A new clan. In dwarven culture, the naming of a new clan is no small thing. It is birth and rebellion, legacy and declaration. However, the blade in the king's hands lends the claim unexpected gravity.</p>
-<p><strong>"<em>Dumdrengi</em> does not lie."</strong>&nbsp;Ungrim declares. <strong>"This blade is Spangelhelm's. A king’s blade. A bloody blade. It has sung the song of vengeance and yet…"</strong> he pauses, eyes fixed on Bründir,&nbsp;<strong>"today it sings of return."</strong></p>
+<p>Some of the courtiers bristle, while others nod subtly behind their beards, hiding amusement or respect. BrÃ¼ndir's words ring with the weight of hard-earned dignity. His plain, heartfelt speech is unpolished, but honest. Though it might clash with the formalities of courtly dwarven diplomacy, it rings true in the ears of those not yet deaf to sincerity.</p>
+<p>The king remains silent through it all, watching BrÃ¼ndir with the cold patience of stone. Finally, Ungrim turns his attention back to <em>Dumdrengi</em>, inspecting the blade in the firelight. He turns the sword&nbsp;in his hands and its edge gleams, runes flickering faintly in the heat-haze.</p>
+<p>When BrÃ¼ndir first addressed the king, he named himself founder of the Halfshield clan. A new clan. In dwarven culture, the naming of a new clan is no small thing. It is birth and rebellion, legacy and declaration. However, the blade in the king's hands lends the claim unexpected gravity.</p>
+<p><strong>"<em>Dumdrengi</em> does not lie."</strong>&nbsp;Ungrim declares. <strong>"This blade is Spangelhelm's. A kingâ€™s blade. A bloody blade. It has sung the song of vengeance and yetâ€¦"</strong> he pauses, eyes fixed on BrÃ¼ndir,&nbsp;<strong>"today it sings of return."</strong></p>
 <p>He levels the blade over the shoulder of Sheercleft's first son.</p>
-<p><strong>"Bründir Halfshield, son of the mountainfolk, son of Sheercleft, bearer of Dumdrengi, first of his name. You speak not with a tongue of gold, but with the truth of iron."</strong>&nbsp;The king taps the flat of of <em>Dumdrengi</em>'s blade lightly on each of Bründir's shoulders. <strong>“Your offer is accepted. Provisionally. By your oath of fealty, I name you Thane of Sheercleft, to Karaz Kadrin, under its banner and its protection. Trade rights and border customs are matters for further talk, in chambers where less mead is spilled and more ink flows."</strong></p>
+<p><strong>"BrÃ¼ndir Halfshield, son of the mountainfolk, son of Sheercleft, bearer of Dumdrengi, first of his name. You speak not with a tongue of gold, but with the truth of iron."</strong>&nbsp;The king taps the flat of of <em>Dumdrengi</em>'s blade lightly on each of BrÃ¼ndir's shoulders. <strong>â€œYour offer is accepted. Provisionally. By your oath of fealty, I name you Thane of Sheercleft, to Karaz Kadrin, under its banner and its protection. Trade rights and border customs are matters for further talk, in chambers where less mead is spilled and more ink flows."</strong></p>
 <p>He glances briefly to his advisors, silencing the more restless among them.</p>
 <p><strong>"You shall have a private audience in the Stonekeep at first light tomorrow. Bring your companions. The Acharnost had my curiosity, but now you have my attention."</strong></p>
-<p><strong>“Let it be known!"</strong> King Ungrim bellows, raising his voice to the hall. <strong>"Karaz Kadrin acknowledges the forging of Clan Halfshield!"</strong></p>
+<p><strong>â€œLet it be known!"</strong> King Ungrim bellows, raising his voice to the hall. <strong>"Karaz Kadrin acknowledges the forging of Clan Halfshield!"</strong></p>
 <p>The dwarves rise in a thunderous stomp of boots and shields on stone, the ancestral gesture of respect. Though many faces remain doubtful, many more are filled with awe. A new name has been carved into the stone of dwarven memory.</p>
                                 
                             </div>
@@ -5653,7 +5666,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -5804,7 +5817,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-5196" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Bründir bows, for the first time, before the king.&nbsp;<strong>"You do me great honor, King Ungrim. I aim to live up to your trust. We could fill days tellin' ye</strong><strong>&nbsp;what we've come through, but it'll wait till our audience."</strong></p>
+                                <p>BrÃ¼ndir bows, for the first time, before the king.&nbsp;<strong>"You do me great honor, King Ungrim. I aim to live up to your trust. We could fill days tellin' ye</strong><strong>&nbsp;what we've come through, but it'll wait till our audience."</strong></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5832,7 +5845,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -6060,8 +6073,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6398,3 +6411,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=259 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:54 GMT -->
 </html>
+

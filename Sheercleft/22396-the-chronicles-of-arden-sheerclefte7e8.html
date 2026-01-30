@@ -1,4 +1,4 @@
-
+﻿
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -390,7 +390,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-    </head>
+    <style>
+/* Hides the error box just in case */
+.ui-dialog, .ui-widget-overlay { display: none !important; }
+</style>
+<script>
+// This stops the broken scripts from "hijacking" your clicks
+window.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' || e.target.closest('a')) {
+        // Force the browser to follow the link normally
+        return true; 
+    }
+}, true);
+</script>
+</head>
 
     <body class="site  site-dndbeyond site-www body-forum body-forum-threaddetails show-ads user-anonymous lang-en site-lang-en template-none skin-light-on-dark responsive-enabled" data-user-lang="1">
         
@@ -904,7 +917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/dmg-2024"  class="">
                 <span class="b-list-label">
-                   Dungeon Master’s Guide
+                   Dungeon Masterâ€™s Guide
     
                 </span>
             </a>
@@ -970,7 +983,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/egtw"  class="">
                 <span class="b-list-label">
-                   Explorer’s Guide to Wildemount
+                   Explorerâ€™s Guide to Wildemount
     
                 </span>
             </a>
@@ -981,7 +994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/ftod"  class="">
                 <span class="b-list-label">
-                   Fizban’s Treasury of Dragons
+                   Fizbanâ€™s Treasury of Dragons
     
                 </span>
             </a>
@@ -992,7 +1005,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/frhof"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Heroes of Faerûn
+                   Forgotten Realms: Heroes of FaerÃ»n
     
                 </span>
             </a>
@@ -1047,7 +1060,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/tcoe"  class="">
                 <span class="b-list-label">
-                   Tasha’s Cauldron of Everything
+                   Tashaâ€™s Cauldron of Everything
     
                 </span>
             </a>
@@ -1069,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/xgte"  class="">
                 <span class="b-list-label">
-                   Xanathar’s Guide to Everything
+                   Xanatharâ€™s Guide to Everything
     
                 </span>
             </a>
@@ -1106,7 +1119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/bgdia"  class="">
                 <span class="b-list-label">
-                   Baldur’s Gate: Descent into Avernus
+                   Baldurâ€™s Gate: Descent into Avernus
     
                 </span>
             </a>
@@ -1161,7 +1174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/fraif"  class="">
                 <span class="b-list-label">
-                   Forgotten Realms: Adventures in Faerûn
+                   Forgotten Realms: Adventures in FaerÃ»n
     
                 </span>
             </a>
@@ -1227,7 +1240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/nf"  class="">
                 <span class="b-list-label">
-                   Netheril’s Fall
+                   Netherilâ€™s Fall
     
                 </span>
             </a>
@@ -1271,7 +1284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <a href="https://www.dndbeyond.com/sources/dnd/skt"  class="">
                 <span class="b-list-label">
-                   Storm King’s Thunder
+                   Storm Kingâ€™s Thunder
     
                 </span>
             </a>
@@ -2358,8 +2371,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4230" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><span style="color: rgba(0, 0, 255, 1)"><strong>"I don't know about the nobles here "</strong> </span>says Thurston obviously amused by the display of the miners<strong><span style="color: rgba(0, 0, 255, 1)"> " But I do think that you will be the perfect leader for this place. They need you "</span> </strong>he says pointing to the men and dwarves that are still chanting his name<span style="color: rgba(0, 0, 255, 1)"><strong> "<em>we</em> need you. You will be seen as the perfect fit for this place by the Thanes, much better that we outlanders that's for sure and I tell you what "</strong></span> he get closer to Bründir<span style="color: rgba(0, 0, 255, 1)"><strong> "I promise that the rest of us will throw you to the pig's mud to take a bath if you start to become stuffy! HAHAHAHA"</strong> </span>the norscan stands and raises his mug&nbsp;</p>
-<p><span style="color: rgba(0, 0, 255, 1)"><strong>"All hail Bründir Halfshiled!!! Lord of Sheercleft!!"&nbsp;</strong></span></p>
+                                <p><span style="color: rgba(0, 0, 255, 1)"><strong>"I don't know about the nobles here "</strong> </span>says Thurston obviously amused by the display of the miners<strong><span style="color: rgba(0, 0, 255, 1)"> " But I do think that you will be the perfect leader for this place. They need you "</span> </strong>he says pointing to the men and dwarves that are still chanting his name<span style="color: rgba(0, 0, 255, 1)"><strong> "<em>we</em> need you. You will be seen as the perfect fit for this place by the Thanes, much better that we outlanders that's for sure and I tell you what "</strong></span> he get closer to BrÃ¼ndir<span style="color: rgba(0, 0, 255, 1)"><strong> "I promise that the rest of us will throw you to the pig's mud to take a bath if you start to become stuffy! HAHAHAHA"</strong> </span>the norscan stands and raises his mug&nbsp;</p>
+<p><span style="color: rgba(0, 0, 255, 1)"><strong>"All hail BrÃ¼ndir Halfshiled!!! Lord of Sheercleft!!"&nbsp;</strong></span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2537,8 +2550,8 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4231" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>"Settled, then! Got a&nbsp;good 'ome, an' good frien's. Seems that's worth it all these days." Bründir continued to celebrate for several more mugs and until retiring to his quarters. He laid Dumdrengi on his bed and knelt before the blade. It was as close to an altar as his muddled mind could picture as he sank into a quiet contemplation. It may have been the excessive drinks, but he felt oddly at peace floating in the quiet space of his own self. Soon, he reached out to whomever would listen - Moradin, Dumdrengi, or some other Dwarven deity - and gave thanks for all he'd been given, then for strength to succeed in the coming weeks.</p>
-<p>A few hours passed, and Bründir shook awake, hunched over his bed. He judged it to still be well before dawn, and his foggy brain somehow grasped at the memory of....something special. An event, but not a celebration. Something....religi- <em>Shite</em>, he thought. Donning his armour and blade, then washing the sleep from his face and beard, Bründir rushed out to find the blot to be held by Thurston and Aiden. While not for his gods, it was as much a celebration of their collective accomplaishments.</p>
+                                <p>"Settled, then! Got a&nbsp;good 'ome, an' good frien's. Seems that's worth it all these days." BrÃ¼ndir continued to celebrate for several more mugs and until retiring to his quarters. He laid Dumdrengi on his bed and knelt before the blade. It was as close to an altar as his muddled mind could picture as he sank into a quiet contemplation. It may have been the excessive drinks, but he felt oddly at peace floating in the quiet space of his own self. Soon, he reached out to whomever would listen - Moradin, Dumdrengi, or some other Dwarven deity - and gave thanks for all he'd been given, then for strength to succeed in the coming weeks.</p>
+<p>A few hours passed, and BrÃ¼ndir shook awake, hunched over his bed. He judged it to still be well before dawn, and his foggy brain somehow grasped at the memory of....something special. An event, but not a celebration. Something....religi- <em>Shite</em>, he thought. Donning his armour and blade, then washing the sleep from his face and beard, BrÃ¼ndir rushed out to find the blot to be held by Thurston and Aiden. While not for his gods, it was as much a celebration of their collective accomplaishments.</p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -2570,7 +2583,7 @@ line-height: 1.5rem; }
 </div>
     <div class="p-comment-sig ">
         <p>Characters:</p>
-<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>Bründir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
+<p>Grishkar Darkmoor, Necromancer of Nerull the Despiser<br>Kelvin Rabbitfoot, Diviner, con artist, always hunting for a good sale<br>BrÃ¼ndir Halfshield, Valor Bard, three-time Sheercleft Drinking Competition Champion, Hometown hero</p>
     </div>
     
                 </div>
@@ -2721,9 +2734,9 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4232" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>As passionate as he is about his intentions, Vark is happy when the focus shifts from himself to&nbsp;Bründir, and he&nbsp;nods in agreement at Brynja's words.&nbsp;Bründir was loyal, charismatic, and shared the half-orc's sense of optimism. Through all of Vark's dealings with Matthew, the dwarf had always been a kind source of support, even when Vark could only understand half of what the man said. As the chants of "Halfshield" begin to fill the room, Vark joins in with magic-laced words that cause the celebratory thunder of voices and percussion to rumble even louder, so that all of Sheercleft can hear their newly elected leader's name. He stays for the cheers and for a few more drinks, but eventually he tugs at Seid's arm and the pair makes their exit.</p>
+                                <p>As passionate as he is about his intentions, Vark is happy when the focus shifts from himself to&nbsp;BrÃ¼ndir, and he&nbsp;nods in agreement at Brynja's words.&nbsp;BrÃ¼ndir was loyal, charismatic, and shared the half-orc's sense of optimism. Through all of Vark's dealings with Matthew, the dwarf had always been a kind source of support, even when Vark could only understand half of what the man said. As the chants of "Halfshield" begin to fill the room, Vark joins in with magic-laced words that cause the celebratory thunder of voices and percussion to rumble even louder, so that all of Sheercleft can hear their newly elected leader's name. He stays for the cheers and for a few more drinks, but eventually he tugs at Seid's arm and the pair makes their exit.</p>
 <p><strong>"I'm not worried about you making it there, I know you can handle yourself, Vark."</strong> Seid says as they step around piles of stone and sheets of heavy canvas into what was once the town hall. The construction has only just begun but already Vark can visualize the tower that will stretch up above them as he enters through the door. <strong>"I'm concerned about what you'll find when you get to Endelfjell. Yes we know Aureaonus is alive, but the barriers you faced when attempting to contact him are... troubling. It's possible that he erected those wards, but it could also be that those blue-skinned interlopers placed them. You'd potentially be dealing with powerful extraplanar entities and you would be completely alone."&nbsp;</strong></p>
-<p>Vark crosses the room and begins throwing drop cloths from the crates where the small library of books they've accumulated sit safely stored away from construction debris. <strong>"Yeah but... I mean, it makes sense that Aury would've put up those wards after getting attacked, right? And if he sees that it's me trying to get in then he'll drop them. And if not..."</strong> He continues rifling through tomes as he speaks, searching for the spellbook he'd remembered.&nbsp; <strong>"If it gets too dangerous then I'll turn back. I'll be able to get back here really fast and then I can help with the Baron and then we can all travel to Endelfjell together, but if I'm right about all of this then we can all just teleport there and back whenever we want. And ya know, maybe there won't even be a fight here for me to help with. I mean, if I have to&nbsp;sit around for&nbsp;<em>weeks</em> just for&nbsp;Bründir and Jex to talk to the Baron about iron&nbsp;while they all sip on a pint I'm gonna lose my mind!"</strong> At last he finds the book he seeks and pulls it from the box with a wide grin. But the smile fades as he turns back to Seid and sees the concern in his companion's eyes. <strong>"Seid..."</strong> He places the book down on the edge of the crate and he takes the man's hand in his. <strong>"I'll be careful. I won't get into any trouble. I promise."</strong> He leans forward and their lips finally reunite. Vark lets out the softest moan as Seid embraces him and pulls him to the ground. Neither of them takes any notice as their legs sprawl out and send the spellbook tumbling onto the floor.</p>
+<p>Vark crosses the room and begins throwing drop cloths from the crates where the small library of books they've accumulated sit safely stored away from construction debris. <strong>"Yeah but... I mean, it makes sense that Aury would've put up those wards after getting attacked, right? And if he sees that it's me trying to get in then he'll drop them. And if not..."</strong> He continues rifling through tomes as he speaks, searching for the spellbook he'd remembered.&nbsp; <strong>"If it gets too dangerous then I'll turn back. I'll be able to get back here really fast and then I can help with the Baron and then we can all travel to Endelfjell together, but if I'm right about all of this then we can all just teleport there and back whenever we want. And ya know, maybe there won't even be a fight here for me to help with. I mean, if I have to&nbsp;sit around for&nbsp;<em>weeks</em> just for&nbsp;BrÃ¼ndir and Jex to talk to the Baron about iron&nbsp;while they all sip on a pint I'm gonna lose my mind!"</strong> At last he finds the book he seeks and pulls it from the box with a wide grin. But the smile fades as he turns back to Seid and sees the concern in his companion's eyes. <strong>"Seid..."</strong> He places the book down on the edge of the crate and he takes the man's hand in his. <strong>"I'll be careful. I won't get into any trouble. I promise."</strong> He leans forward and their lips finally reunite. Vark lets out the softest moan as Seid embraces him and pulls him to the ground. Neither of them takes any notice as their legs sprawl out and send the spellbook tumbling onto the floor.</p>
 <p>Of course, Vark's grand plan all depends on how close the baron and his forces are. Some time after the mages have gotten reacquainted and the phantom steed spell has been uploaded to the codex, Vark sits with the relic before him and begins to reach out through the ruby's power to... <strong>"You said his name was Gareth right?"</strong>&nbsp;he asks, to which Seid replies with an amused nod.<strong> "Gareth, this is Vark. Forces from Cambria march for Sheercleft. Have you heard or seen anything? We need to know how close they are."</strong> The ruby pulses with each syllable Vark speaks as it sends his words directly to Gareth Jones' mind.</p>
                                 
                             </div>
@@ -2933,7 +2946,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3291,7 +3304,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3649,7 +3662,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -3800,7 +3813,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4238" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p>Vark takes another sigh, this one much deeper as he tries to summon patience.<b> “This magic is limited, only 25 words at a time. Maybe the Baron took <i>what</i>?”</b></p>
+                                <p>Vark takes another sigh, this one much deeper as he tries to summon patience.<b> â€œThis magic is limited, only 25 words at a time. Maybe the Baron took <i>what</i>?â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4007,7 +4020,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4159,7 +4172,7 @@ line-height: 1.5rem; }
                             <!-- Content -->
                             <div id="forum-post-body-4240" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
                                 <p><span style="color: rgba(0, 0, 255, 1)"><strong>"Dorno my good friend!"</strong></span> Thurston hugs the firbolg and then introduces his companion</p>
-<p><span style="color: rgba(0, 0, 255, 1)"><strong>"This is Aiden, a good friend of mine, cleric of Thor. Aiden this is Dorno, a dear friend and an excellent druid. Look what you have done with the place!! We are lucky to have you near. Listen my good Dorno we've come for two reasons. First, to warn you. It seems that a stupid baron is heading towards Sheercleft in order to boss us around, and we are not going to allow it, of course not! We've just decided that Bründir is going to be named Lord of Sheercleft so he cannot come and claim it... "</strong> </span>Thurston waves his hand <strong><span style="color: rgba(0, 0, 255, 1)">" or something like that... I only know that Bründir is going to be the oficcial Lord of the place and that we expect problems from this Baron. Be sure to stay safe ok?. Second. "</span></strong> Thurston tries to find the right words <span style="color: rgba(0, 0, 255, 1)"><strong>"The Thor temple is almost complete back in the city you know? And we would like to offer a proper present to Thor and to the village in order to celebrate such an event. As you know, Thor used to prepare his goats for dinner and they are reborn each morning. We would like to offer a goat to our god and to the people of Sheercleft, a goat that, thanks to the proper rites that Aiden will perform, will be reborn in Asgard and will always enjoy green pastures. I was wondering if you do have a goat that could serve to this noble porpouse..."</strong></span></p>
+<p><span style="color: rgba(0, 0, 255, 1)"><strong>"This is Aiden, a good friend of mine, cleric of Thor. Aiden this is Dorno, a dear friend and an excellent druid. Look what you have done with the place!! We are lucky to have you near. Listen my good Dorno we've come for two reasons. First, to warn you. It seems that a stupid baron is heading towards Sheercleft in order to boss us around, and we are not going to allow it, of course not! We've just decided that BrÃ¼ndir is going to be named Lord of Sheercleft so he cannot come and claim it... "</strong> </span>Thurston waves his hand <strong><span style="color: rgba(0, 0, 255, 1)">" or something like that... I only know that BrÃ¼ndir is going to be the oficcial Lord of the place and that we expect problems from this Baron. Be sure to stay safe ok?. Second. "</span></strong> Thurston tries to find the right words <span style="color: rgba(0, 0, 255, 1)"><strong>"The Thor temple is almost complete back in the city you know? And we would like to offer a proper present to Thor and to the village in order to celebrate such an event. As you know, Thor used to prepare his goats for dinner and they are reborn each morning. We would like to offer a goat to our god and to the people of Sheercleft, a goat that, thanks to the proper rites that Aiden will perform, will be reborn in Asgard and will always enjoy green pastures. I was wondering if you do have a goat that could serve to this noble porpouse..."</strong></span></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -4370,7 +4383,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -4702,7 +4715,7 @@ line-height: 1.5rem; }
                         <div class="j-comment-body-container p-comment-body forum-post-body-content">
                             <!-- Content -->
                             <div id="forum-post-body-4243" class="j-comment-body forum-post-body u-typography-format text" itemprop="text">
-                                <p><b>“They hadn’t left three weeks ago when Gareth was there... and it was probably that caravan arriving that gave the Baron the idea to try and claim Sheercleft so they would’ve needed time to prepare. That means we have at least a whole week, probably more!”</b> He shares with Seid, excitement building in his voice.<b> “I can totally make it to Endelfjell and back in that time.”</b></p>
+                                <p><b>â€œThey hadnâ€™t left three weeks ago when Gareth was there... and it was probably that caravan arriving that gave the Baron the idea to try and claim Sheercleft so they wouldâ€™ve needed time to prepare. That means we have at least a whole week, probably more!â€</b> He shares with Seid, excitement building in his voice.<b> â€œI can totally make it to Endelfjell and back in that time.â€</b></p>
                                 
                             </div>
                             <!-- Attachments -->
@@ -5267,7 +5280,7 @@ line-height: 1.5rem; }
     <input type="submit" class="j-comment-revisions-cancel button comment-revisions-cancel" name="cancel-rollback" value="Cancel"/>
 </div>
     <div class="p-comment-sig ">
-        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;Bründir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
+        <p><span style="color: rgba(0, 128, 0, 1)"><strong><a style="color: rgba(0, 128, 0, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/22396-the-chronicles-of-arden-sheercleft" target="_blank">The Chronicles of Arden: Sheercleft&nbsp;-&nbsp;DM for Aiden,&nbsp;BrÃ¼ndir, Jex, Thurston,&nbsp;Valaith&nbsp;and&nbsp;Vark</a></strong></span><br><span style="color: rgba(128, 128, 128, 1)"><strong><a style="color: rgba(128, 128, 128, 1)" href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/32262-shadowhunters-st-petersburg" target="_blank">The Chronicles of Arden: Hunters&nbsp;-&nbsp;DM for Alaris, Astrid, Caio and Shiva</a></strong></span></p>
     </div>
     
                 </div>
@@ -6051,8 +6064,8 @@ line-height: 1.5rem; }
     </div>
     <div class="ddb-footer__bottom">
         <div class="ddb-footer__bottom__text-container">
-            <div class="ddb-footer__bottom__header">© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
-            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © <span id="ddb-footer__year--2">2024</span> Wizards.</div>
+            <div class="ddb-footer__bottom__header">Â© 2017-<span id="ddb-footer__year--1">2024</span>&nbsp;Wizards of the Coast LLC | All Rights Reserved</div>
+            <div>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are Â© and trademark Wizards of the Coast in the U.S.A. and other countries. Â© <span id="ddb-footer__year--2">2024</span> Wizards.</div>
         </div>
         <div>
             <a target="_blank"
@@ -6389,3 +6402,4 @@ a.ddb-footer__bottom__link:hover {
 
 <!-- Mirrored from www.dndbeyond.com/forums/dungeons-dragons-discussion/play-by-post/22396-the-chronicles-of-arden-sheercleft?page=212 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 Jan 2026 08:22:39 GMT -->
 </html>
+
