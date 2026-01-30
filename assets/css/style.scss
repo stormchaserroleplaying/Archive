@@ -2,8 +2,9 @@
 # This front matter tells Jekyll to process this file
 ---
 
-// 1. Import the default theme styles so your site doesn't turn into a white screen
-@import "{{ site.theme }}";
+// For the "just-the-docs" theme, we import it directly by name.
+// This ensures all your layout and colors stay intact.
+@import "just-the-docs";
 
 // 2. Custom Fix: Silence the DnDBeyond "Ghost" Error
 // This hides the error modals that pop up because of the 405 status codes.
