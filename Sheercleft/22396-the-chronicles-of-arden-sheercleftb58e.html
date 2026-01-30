@@ -391,10 +391,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         
     <style>
-/* Added to suppress DnDBeyond 405 errors */
-.error-notification, .beholder-error, .alert-error, .notification-container, #error-message-wrapper { 
+/* Hides the specific jQuery UI Error Dialog */
+.ui-dialog.ui-widget.modal, 
+.ui-widget-overlay, 
+.ui-dialog-titlebar { 
     display: none !important; 
     visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
 </style>
 </head>
