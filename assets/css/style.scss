@@ -1,0 +1,21 @@
+---
+# This front matter tells Jekyll to process this file
+---
+
+// 1. Import the default theme styles so your site doesn't turn into a white screen
+@import "{{ site.theme }}";
+
+// 2. Custom Fix: Silence the DnDBeyond "Ghost" Error
+// This hides the error modals that pop up because of the 405 status codes.
+.error-notification, 
+.beholder-error, 
+.alert-error, 
+.notification-container,
+#error-message-wrapper { 
+    display: none !important; 
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+// 3. Optional: Add any other site-wide styling below this line
