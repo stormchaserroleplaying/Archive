@@ -391,14 +391,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         
     <style>
-/* Hides the specific jQuery UI Error Dialog */
+/* Hides the box AND removes the "Invisible Wall" */
 .ui-dialog.ui-widget.modal, 
-.ui-widget-overlay, 
-.ui-dialog-titlebar { 
+.ui-widget-overlay { 
     display: none !important; 
     visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
+    pointer-events: none !important; /* This allows clicks to pass through */
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
 }
 </style>
 </head>
